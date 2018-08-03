@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginLocalhost</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f56e4ca2-7793-4f85-a5bb-544f562e5bd8</testCaseGuid>
+   <variable>
+      <defaultValue>'http://localhost/dev/Account/Account/Login.aspx'</defaultValue>
+      <description></description>
+      <id>6c219c4d-3a42-4aa3-b468-08c8c5693fd4</id>
+      <masked>false</masked>
+      <name>LoginUrl</name>
+   </variable>
+   <variable>
+      <defaultValue>'smeijeri'</defaultValue>
+      <description></description>
+      <id>a761390e-35b4-40a4-8b23-ff80bcd9ad39</id>
+      <masked>false</masked>
+      <name>UserName</name>
+   </variable>
+   <variable>
+      <defaultValue>'ycg/NLA4TluevcxzW/Ckgg=='</defaultValue>
+      <description></description>
+      <id>46a52aee-78ec-4f50-8151-84767d512d96</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

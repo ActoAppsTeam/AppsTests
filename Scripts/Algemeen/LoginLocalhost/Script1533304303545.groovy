@@ -33,7 +33,5 @@ WebUI.click(findTestObject('LoginPagina/input_LoginButton'))
 
 WebUI.waitForElementPresent(findTestObject('Home/HomeAppTileContainer'), 5)
 
-WebUI.takeScreenshot()
-
 assert true
 

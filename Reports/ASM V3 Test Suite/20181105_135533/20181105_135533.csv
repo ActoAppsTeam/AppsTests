@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ASM V3 Test Suite,,,2018-11-05 13:55:35,2018-11-05 13:55:36,"1,450s",FAILED
+,,,,,,
+Test Cases/Algemeen/LoginLocalhost,,,2018-11-05 13:55:35,2018-11-05 13:55:36,"0,875s",FAILED
+openBrowser,,,2018-11-05 13:55:36,2018-11-05 13:55:36,"0,476s",FAILED
+,,,,,,
+Test Cases/ASM Versie 3/Login,,,2018-11-05 13:55:36,2018-11-05 13:55:36,"0,162s",FAILED
+navigateToUrl,,"ASM Versie 3, index pagina",2018-11-05 13:55:36,2018-11-05 13:55:36,"0,025s",FAILED

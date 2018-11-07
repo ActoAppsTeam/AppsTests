@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ASM Test Suite" time="8" tests="2" failures="0" errors="0">
+   <testsuite name="ASM Test Suite" tests="2" failures="0" errors="0" time="8" timestamp="2018-11-05 17:43:09" hostname="ekroes - ltekroes.acto.nl" id="Test Suites/ASM Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASM Test Suite\\20181105_174307"/>
+         <property name="logFiles" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASM Test Suite\\20181105_174307\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASM Test Suite\\20181105_174307\\1541436193273.png, C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASM Test Suite\\20181105_174307\\1541436195285.png"/>
+         <property name="hostName" value="ekroes - ltekroes.acto.nl"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="10.146.8.12"/>
+         <property name="sessionId" value="6c008bbedd37ebe7611f09d66c99d59d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Algemeen/LoginLocalhost" classname="Test Cases/Algemeen/LoginLocalhost" status="PASSED">
+         <system-out><![CDATA[2018-11-05 17:43:09 - [TEST_CASE][PASSED] - Test Cases/Algemeen/LoginLocalhost: Test Cases/Algemeen/LoginLocalhost
+
+2018-11-05 17:43:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-05 17:43:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-05 17:43:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost/dev/Account/Account/Login.aspx' successfully
+
+2018-11-05 17:43:13 - [MESSAGE][PASSED] - Navigate to 'http://localhost/dev/Account/Account/Login.aspx' successfully
+
+2018-11-05 17:43:13 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-05 17:43:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASM Test Suite\\20181105_174307\\1541436193273.png]]
+
+2018-11-05 17:43:13 - [TEST_STEP][PASSED] - setText: Text 'ekroes' is set on object 'Object Repository/LoginPagina/input_UserName'
+
+2018-11-05 17:43:13 - [MESSAGE][PASSED] - Text 'ekroes' is set on object 'Object Repository/LoginPagina/input_UserName'
+
+2018-11-05 17:43:13 - [TEST_STEP][PASSED] - setText: Text 'Varkenskut_hoera123' is set on object 'Object Repository/LoginPagina/input_CurrentPassword'
+
+2018-11-05 17:43:14 - [MESSAGE][PASSED] - Text 'Varkenskut_hoera123' is set on object 'Object Repository/LoginPagina/input_CurrentPassword'
+
+2018-11-05 17:43:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPagina/input_LoginButton' is clicked on
+
+2018-11-05 17:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPagina/input_LoginButton' is clicked on
+
+2018-11-05 17:43:14 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home/HomeAppTileContainer' is present
+
+2018-11-05 17:43:15 - [MESSAGE][PASSED] - Object 'Object Repository/Home/HomeAppTileContainer' is present
+
+2018-11-05 17:43:15 - [TEST_STEP][PASSED] - Statement - assert true: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ASM/BrowseToHomeIndex" classname="Test Cases/ASM/BrowseToHomeIndex" status="PASSED">
+         <system-out><![CDATA[2018-11-05 17:43:15 - [TEST_CASE][PASSED] - Test Cases/ASM/BrowseToHomeIndex: Test Cases/ASM/BrowseToHomeIndex
+
+2018-11-05 17:43:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASM/Home/AsmAppTile' is clicked on
+
+2018-11-05 17:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ASM/Home/AsmAppTile' is clicked on
+
+2018-11-05 17:43:15 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-05 17:43:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASM Test Suite\\20181105_174307\\1541436195285.png]]
+
+2018-11-05 17:43:15 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASM/Home/AsmHomeIndex' is present
+
+2018-11-05 17:43:17 - [MESSAGE][PASSED] - Object 'Object Repository/ASM/Home/AsmHomeIndex' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-05 17:43:09 - [TEST_SUITE][PASSED] - ASM Test Suite: Test Cases/ASM/BrowseToHomeIndex]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ASM V3 Test Suite,Chrome 70.0.3538.77,,2018-11-05 14:05:21,2018-11-05 14:05:28,"7,077s",PASSED
+,,,,,,
+Test Cases/Algemeen/LoginLocalhost,Chrome 70.0.3538.77,,2018-11-05 14:05:21,2018-11-05 14:05:27,"5,680s",PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-11-05 14:05:21,2018-11-05 14:05:25,"3,441s",PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-11-05 14:05:25,2018-11-05 14:05:25,"0,247s",PASSED
+takeScreenshot,Chrome 70.0.3538.77,,2018-11-05 14:05:25,2018-11-05 14:05:25,"0,464s",PASSED
+setText,Chrome 70.0.3538.77,,2018-11-05 14:05:25,2018-11-05 14:05:26,"0,178s",PASSED
+setText,Chrome 70.0.3538.77,,2018-11-05 14:05:26,2018-11-05 14:05:26,"0,168s",PASSED
+click,Chrome 70.0.3538.77,,2018-11-05 14:05:26,2018-11-05 14:05:26,"0,221s",PASSED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-11-05 14:05:26,2018-11-05 14:05:27,"0,595s",PASSED
+Statement - assert true,Chrome 70.0.3538.77,,2018-11-05 14:05:27,2018-11-05 14:05:27,"0,002s",PASSED
+,,,,,,
+Test Cases/ASM Versie 3/Login,Chrome 70.0.3538.77,,2018-11-05 14:05:27,2018-11-05 14:05:27,"0,480s",PASSED
+navigateToUrl,Chrome 70.0.3538.77,"ASM Versie 3, index pagina",2018-11-05 14:05:27,2018-11-05 14:05:27,"0,069s",PASSED
+takeScreenshot,Chrome 70.0.3538.77,,2018-11-05 14:05:27,2018-11-05 14:05:27,"0,272s",PASSED

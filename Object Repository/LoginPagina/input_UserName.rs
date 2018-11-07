@@ -6,12 +6,12 @@
    <elementGuidId>2b8d0f45-19dd-4141-98e4-bdcb13e3d61d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@name = 'UserName' and @type = 'text' and @id = 'UserName' and @placeholder = 'Gebruikersnaam of e-mail adres']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#UserName</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'UserName' and @type = 'text' and @id = 'UserName' and @placeholder = 'Gebruikersnaam of e-mail adres']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

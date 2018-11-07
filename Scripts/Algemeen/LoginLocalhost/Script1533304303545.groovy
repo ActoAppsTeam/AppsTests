@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.openBrowser('')
 
@@ -27,7 +28,7 @@ WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('LoginPagina/input_UserName'), UserName)
 
-WebUI.setEncryptedText(findTestObject('LoginPagina/input_CurrentPassword'), Password)
+WebUI.setText(findTestObject('LoginPagina/input_CurrentPassword'), Password)
 
 WebUI.click(findTestObject('LoginPagina/input_LoginButton'))
 

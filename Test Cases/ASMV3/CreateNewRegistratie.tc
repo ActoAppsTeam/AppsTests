@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CreateNewRegistratie</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3fd1f664-613a-4a8c-9907-d9ae40ca3a01</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>db521c1a-bda1-4304-8ac2-88bf4f6b4463</id>
+      <masked>false</masked>
+      <name>AanneemSom</name>
+   </variable>
+</TestCaseEntity>

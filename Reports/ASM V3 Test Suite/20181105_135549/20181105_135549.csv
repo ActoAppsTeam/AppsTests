@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ASM V3 Test Suite,Chrome 70.0.3538.77,,2018-11-05 13:55:51,2018-11-05 13:56:02,"10,964s",FAILED
+,,,,,,
+Test Cases/Algemeen/LoginLocalhost,Chrome 70.0.3538.77,,2018-11-05 13:55:51,2018-11-05 13:55:56,"4,865s",FAILED
+openBrowser,Chrome 70.0.3538.77,,2018-11-05 13:55:51,2018-11-05 13:55:54,"3,130s",PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-11-05 13:55:54,2018-11-05 13:55:55,"0,310s",PASSED
+takeScreenshot,Chrome 70.0.3538.77,,2018-11-05 13:55:55,2018-11-05 13:55:55,"0,435s",PASSED
+setText,Chrome 70.0.3538.77,,2018-11-05 13:55:55,2018-11-05 13:55:55,"0,231s",PASSED
+setEncryptedText,Chrome 70.0.3538.77,,2018-11-05 13:55:55,2018-11-05 13:55:56,"0,411s",FAILED
+,,,,,,
+Test Cases/ASM Versie 3/Login,Chrome 70.0.3538.77,,2018-11-05 13:55:56,2018-11-05 13:56:01,"5,160s",PASSED
+navigateToUrl,Chrome 70.0.3538.77,"ASM Versie 3, index pagina",2018-11-05 13:55:56,2018-11-05 13:56:01,"4,727s",PASSED
+takeScreenshot,Chrome 70.0.3538.77,,2018-11-05 13:56:01,2018-11-05 13:56:01,"0,294s",PASSED

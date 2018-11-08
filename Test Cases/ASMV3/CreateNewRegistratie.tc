@@ -27,7 +27,7 @@
       <name>Bedrijf</name>
    </variable>
    <variable>
-      <defaultValue>'Periodiek Onderhoud'</defaultValue>
+      <defaultValue>14</defaultValue>
       <description></description>
       <id>9fc5e1d1-1ae7-47d6-858f-542d73b292fb</id>
       <masked>false</masked>
@@ -62,7 +62,7 @@
       <name>Melder</name>
    </variable>
    <variable>
-      <defaultValue>'Warmte blijft te lang hangen'</defaultValue>
+      <defaultValue>'Periodieke controle. Brander hapert af en toe.'</defaultValue>
       <description></description>
       <id>d36590e8-8c6c-43d6-8137-2495db8f11a9</id>
       <masked>false</masked>

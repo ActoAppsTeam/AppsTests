@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ASMV3 Test Suite,Chrome 70.0.3538.77,,2018-11-08 11:23:10,2018-11-08 11:23:21,"11,058s",ERROR
+,,,,,,
+Test Cases/Algemeen/LoginLocalhost,Chrome 70.0.3538.77,,2018-11-08 11:23:10,2018-11-08 11:23:19,"9,088s",PASSED
+openBrowser,Chrome 70.0.3538.77,,2018-11-08 11:23:10,2018-11-08 11:23:14,"3,275s",PASSED
+navigateToUrl,Chrome 70.0.3538.77,,2018-11-08 11:23:14,2018-11-08 11:23:15,"1,233s",PASSED
+setText,Chrome 70.0.3538.77,,2018-11-08 11:23:15,2018-11-08 11:23:15,"0,206s",PASSED
+setText,Chrome 70.0.3538.77,,2018-11-08 11:23:15,2018-11-08 11:23:15,"0,155s",PASSED
+click,Chrome 70.0.3538.77,,2018-11-08 11:23:15,2018-11-08 11:23:19,"3,283s",PASSED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-11-08 11:23:19,2018-11-08 11:23:19,"0,579s",PASSED
+Statement - assert true,Chrome 70.0.3538.77,,2018-11-08 11:23:19,2018-11-08 11:23:19,"0,002s",PASSED
+,,,,,,
+Test Cases/ASMV3/HomeIndex,Chrome 70.0.3538.77,,2018-11-08 11:23:19,2018-11-08 11:23:20,"0,638s",PASSED
+click,Chrome 70.0.3538.77,,2018-11-08 11:23:19,2018-11-08 11:23:19,"0,164s",PASSED
+takeScreenshot,Chrome 70.0.3538.77,,2018-11-08 11:23:19,2018-11-08 11:23:20,"0,289s",PASSED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-11-08 11:23:20,2018-11-08 11:23:20,"0,062s",PASSED
+Statement - assert true,Chrome 70.0.3538.77,,2018-11-08 11:23:20,2018-11-08 11:23:20,"0,000s",PASSED
+,,,,,,
+Test Cases/ASMV3/CreateNewRegistratie,Chrome 70.0.3538.77,,2018-11-08 11:23:20,2018-11-08 11:23:20,"0,325s",ERROR

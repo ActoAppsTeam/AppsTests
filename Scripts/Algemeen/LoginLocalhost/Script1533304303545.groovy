@@ -24,11 +24,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(LoginUrl)
 
-WebUI.takeScreenshot()
+WebUI.setText(findTestObject('LoginPagina/input-Username'), UserName)
 
-WebUI.setText(findTestObject('LoginPagina/input_UserName'), UserName)
-
-WebUI.setText(findTestObject('LoginPagina/input_CurrentPassword'), Password)
+WebUI.setText(findTestObject('LoginPagina/input-Password'), CurrentPassword)
 
 WebUI.click(findTestObject('LoginPagina/input_LoginButton'))
 

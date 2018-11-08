@@ -6,11 +6,15 @@
    <elementGuidId>1fb1d7ad-aab5-416e-ad2d-1adcbb40c160</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'submit' and @name = 'LoginButton' and @id = 'LoginButton']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'submit' and @name = 'LoginButton' and @id = 'LoginButton']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

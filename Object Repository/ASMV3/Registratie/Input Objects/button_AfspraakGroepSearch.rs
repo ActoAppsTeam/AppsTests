@@ -4,6 +4,17 @@
    <name>button_AfspraakGroepSearch</name>
    <tag></tag>
    <elementGuidId>16046014-bda7-4c0d-a7bf-818893bb1e71</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[data-test-id=&quot;installatie-search-button&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
 </WebElementEntity>

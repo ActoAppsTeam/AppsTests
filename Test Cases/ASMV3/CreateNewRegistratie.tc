@@ -6,10 +6,80 @@
    <comment></comment>
    <testCaseGuid>3fd1f664-613a-4a8c-9907-d9ae40ca3a01</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'10000000'</defaultValue>
       <description></description>
       <id>db521c1a-bda1-4304-8ac2-88bf4f6b4463</id>
       <masked>false</masked>
       <name>AanneemSom</name>
+   </variable>
+   <variable>
+      <defaultValue>'&quot;&quot;'</defaultValue>
+      <description></description>
+      <id>0fb50eda-4320-471b-9fc1-9d697e6f4a04</id>
+      <masked>false</masked>
+      <name>AfspraakGroep</name>
+   </variable>
+   <variable>
+      <defaultValue>'Katalon test Service'</defaultValue>
+      <description></description>
+      <id>1fada053-09b8-489e-91b9-fd29a5914fd7</id>
+      <masked>false</masked>
+      <name>Bedrijf</name>
+   </variable>
+   <variable>
+      <defaultValue>'Periodiek Onderhoud'</defaultValue>
+      <description></description>
+      <id>9fc5e1d1-1ae7-47d6-858f-542d73b292fb</id>
+      <masked>false</masked>
+      <name>BezoekSoort</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>30fdfd47-0fe6-4c33-8a28-30dce76485cd</id>
+      <masked>false</masked>
+      <name>Contract</name>
+   </variable>
+   <variable>
+      <defaultValue>'Hanze Academie'</defaultValue>
+      <description></description>
+      <id>b22fdfa3-8a6c-487b-a182-b4ab7bfef76f</id>
+      <masked>false</masked>
+      <name>DossierNaam</name>
+   </variable>
+   <variable>
+      <defaultValue>'60 Verwarming'</defaultValue>
+      <description></description>
+      <id>0b89b028-0491-483d-b5ab-f2e022b9e86b</id>
+      <masked>false</masked>
+      <name>Installatie</name>
+   </variable>
+   <variable>
+      <defaultValue>'Katalon service monteur'</defaultValue>
+      <description></description>
+      <id>106cb403-59f3-4493-844d-37719631299a</id>
+      <masked>false</masked>
+      <name>Melder</name>
+   </variable>
+   <variable>
+      <defaultValue>'Warmte blijft te lang hangen'</defaultValue>
+      <description></description>
+      <id>d36590e8-8c6c-43d6-8137-2495db8f11a9</id>
+      <masked>false</masked>
+      <name>MeldingsTekst</name>
+   </variable>
+   <variable>
+      <defaultValue>'Katalon-testservice-2018'</defaultValue>
+      <description></description>
+      <id>ab70dae2-91d9-4281-8497-0ae87bb991bc</id>
+      <masked>false</masked>
+      <name>Referentie</name>
+   </variable>
+   <variable>
+      <defaultValue>'60 Verwarming'</defaultValue>
+      <description></description>
+      <id>46a692ae-9f71-4eb9-a802-337597813c14</id>
+      <masked>false</masked>
+      <name>InstallatieNaam</name>
    </variable>
 </TestCaseEntity>

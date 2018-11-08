@@ -12,14 +12,35 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('ASMV3/Registratie/OpenGlobalMenuNav'))
 
-WebUI.waitForElementPresent(findTestObject('ASMV3/Registratie/GlobalMenuNavButtonCollapsed'), 15)
+WebUI.waitForElementPresent(findTestObject('ASMV3/Registratie/GlobalMenuNavButtonCollapsed'), 10)
 
 WebUI.click(findTestObject('ASMV3/Registratie/ClickNewRegistration'))
 
-WebUI.setText(findTestObject('ASMV3/Registratie/Input Objects/input_Aanneemsom'), AanneemSom)
+WebUI.click(findTestObject('ASMV3/Registratie/Input Objects/button_DossierSearch'))
 
-WebUI.setText(findTestObject('ASMV3/Registratie/Input Objects/input_AfspraakGroep'), AfspraakGroep)
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('ASMV3/Registratie/Input Objects/input_DossierSearchDialog'), DossierNaam)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('ASMV3/Registratie/Input Objects/select_DossierSearchItem'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'), InstallatieNaam)
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search'))
+
+WebUI.delay(5)
 

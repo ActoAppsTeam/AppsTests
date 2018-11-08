@@ -17,7 +17,7 @@ WebUI.click(findTestObject('ASMV3/Home/AsmAppTile'))
 
 WebUI.takeScreenshot()
 
-WebUI.waitForElementPresent(findTestObject('ASMV3/Home/HomeIndex'), 60)
+WebUI.waitForElementPresent(findTestObject('ASMV3/Home/HomeIndex'), 10)
 
 assert true
 

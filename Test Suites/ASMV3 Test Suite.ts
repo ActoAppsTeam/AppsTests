@@ -4,7 +4,7 @@
    <name>ASMV3 Test Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-08T14:21:18</lastRun>
+   <lastRun>2018-11-12T13:53:15</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -44,7 +44,7 @@
    <testCaseLink>
       <guid>02e41079-389d-433d-8eee-6be5a92283f0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ASMV3/CreateNewRegistratie</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -112,5 +112,11 @@
          <value></value>
          <variableId>46a692ae-9f71-4eb9-a802-337597813c14</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2daca7b5-cf7a-4f21-8631-e7393893596f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ASMV3/OrderVerwerken</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

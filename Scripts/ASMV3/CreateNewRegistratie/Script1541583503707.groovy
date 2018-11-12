@@ -72,5 +72,5 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('ASMV3/Registratie/Input Objects/button_Versturen'))
 
-WebUI.delay(60)
+WebUI.delay(10)
 

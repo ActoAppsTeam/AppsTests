@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ASMV3 Test Suite" time="551" tests="3" failures="0" errors="0">
+   <testsuite name="ASMV3 Test Suite" tests="3" failures="0" errors="0" time="551" timestamp="2018-11-14 15:05:43" hostname="ekroes - ltekroes.acto.nl" id="Test Suites/ASMV3 Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite\\20181114_150542"/>
+         <property name="logFiles" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite\\20181114_150542\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite\\20181114_150542\\1542204348850.png"/>
+         <property name="hostName" value="ekroes - ltekroes.acto.nl"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.146.8.12"/>
+         <property name="sessionId" value="70f5dd4a43848b0a0d8fbfb58361fae0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Algemeen/LoginLocalhost" classname="Test Cases/Algemeen/LoginLocalhost" status="PASSED">
+         <system-out><![CDATA[2018-11-14 15:05:43 - [TEST_CASE][PASSED] - Test Cases/Algemeen/LoginLocalhost: Test Cases/Algemeen/LoginLocalhost
+
+2018-11-14 15:05:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-14 15:05:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-14 15:05:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost/dev/Account/Account/Login.aspx' successfully
+
+2018-11-14 15:05:47 - [MESSAGE][PASSED] - Navigate to 'http://localhost/dev/Account/Account/Login.aspx' successfully
+
+2018-11-14 15:05:47 - [TEST_STEP][PASSED] - setText: Text 'ekroes' is set on object 'Object Repository/LoginPagina/input-Username'
+
+2018-11-14 15:05:47 - [MESSAGE][PASSED] - Text 'ekroes' is set on object 'Object Repository/LoginPagina/input-Username'
+
+2018-11-14 15:05:47 - [TEST_STEP][PASSED] - setText: Text 'Varkenskut_hoera123' is set on object 'Object Repository/LoginPagina/input-Password'
+
+2018-11-14 15:05:47 - [MESSAGE][PASSED] - Text 'Varkenskut_hoera123' is set on object 'Object Repository/LoginPagina/input-Password'
+
+2018-11-14 15:05:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPagina/input_LoginButton' is clicked on
+
+2018-11-14 15:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPagina/input_LoginButton' is clicked on
+
+2018-11-14 15:05:47 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home/HomeAppTileContainer' is present
+
+2018-11-14 15:05:48 - [MESSAGE][PASSED] - Object 'Object Repository/Home/HomeAppTileContainer' is present
+
+2018-11-14 15:05:48 - [TEST_STEP][PASSED] - Statement - assert true: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ASMV3/HomeIndex" classname="Test Cases/ASMV3/HomeIndex" status="PASSED">
+         <system-out><![CDATA[2018-11-14 15:05:48 - [TEST_CASE][PASSED] - Test Cases/ASMV3/HomeIndex: Test Cases/ASMV3/HomeIndex
+
+2018-11-14 15:05:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Home/AsmAppTile' is clicked on
+
+2018-11-14 15:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Home/AsmAppTile' is clicked on
+
+2018-11-14 15:05:48 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-14 15:05:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite\\20181114_150542\\1542204348850.png]]
+
+2018-11-14 15:05:49 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Home/HomeIndex' is present
+
+2018-11-14 15:05:49 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Home/HomeIndex' is present
+
+2018-11-14 15:05:49 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-11-14 15:05:49 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-14 15:05:54 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ASMV3/Test Loop" classname="Test Cases/ASMV3/Test Loop" status="PASSED">
+         <system-out><![CDATA[2018-11-14 15:05:54 - [TEST_CASE][PASSED] - Test Cases/ASMV3/Test Loop: Test Cases/ASMV3/Test Loop
+
+2018-11-14 15:05:54 - [TEST_STEP][PASSED] - Statement - For (def index : (0..10)): Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:05:54 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:05:54 - [TEST_CASE][PASSED] - Test Cases/ASMV3/CreateNewRegistratie: Test Cases/ASMV3/CreateNewRegistratie
+
+2018-11-14 15:05:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:05:54 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:05:54 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:05:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:05:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:05:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:05:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:05:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:05:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:05:58 - [TEST_STEP][PASSED] - setText: Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:05:58 - [MESSAGE][PASSED] - Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:05:58 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:06:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:06:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:06:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:06:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:06:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:06:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:06:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:06:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:06:08 - [TEST_STEP][PASSED] - setText: Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:06:08 - [MESSAGE][PASSED] - Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:06:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:06:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:06:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:06:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:06:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:06:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:06:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:06:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:06:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:06:17 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:06:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:06:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:06:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:06:20 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:06:21 - [MESSAGE][PASSED] - All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:06:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:06:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:06:24 - [TEST_STEP][PASSED] - setText: Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:06:24 - [MESSAGE][PASSED] - Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:06:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:06:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:06:27 - [TEST_STEP][PASSED] - setText: Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:06:27 - [MESSAGE][PASSED] - Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:06:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:06:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:06:30 - [TEST_STEP][PASSED] - setText: Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:06:30 - [MESSAGE][PASSED] - Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:06:30 - [TEST_STEP][PASSED] - setText: Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:06:31 - [MESSAGE][PASSED] - Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:06:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:06:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:06:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:06:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:06:34 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-14 15:06:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-14 15:06:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:06:44 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:06:44 - [TEST_CASE][PASSED] - Test Cases/ASMV3/CreateNewRegistratie: Test Cases/ASMV3/CreateNewRegistratie
+
+2018-11-14 15:06:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:06:44 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:06:44 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:06:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:06:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:06:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:06:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:06:47 - [TEST_STEP][PASSED] - setText: Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:06:47 - [MESSAGE][PASSED] - Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:06:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:06:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:06:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:06:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:06:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:06:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:06:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:06:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:06:57 - [TEST_STEP][PASSED] - setText: Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:06:57 - [MESSAGE][PASSED] - Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:06:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:07:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:07:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:07:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:07:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:07:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:07:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:07:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:07:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:07:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:07:06 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:07:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:07:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:07:09 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:07:10 - [MESSAGE][PASSED] - All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:07:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:07:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:07:13 - [TEST_STEP][PASSED] - setText: Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:07:13 - [MESSAGE][PASSED] - Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:07:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:07:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:07:16 - [TEST_STEP][PASSED] - setText: Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:07:16 - [MESSAGE][PASSED] - Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:07:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:07:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:07:19 - [TEST_STEP][PASSED] - setText: Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:07:19 - [MESSAGE][PASSED] - Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:07:19 - [TEST_STEP][PASSED] - setText: Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:07:19 - [MESSAGE][PASSED] - Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:07:19 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:07:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:07:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:07:23 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-14 15:07:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-14 15:07:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:07:33 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:07:33 - [TEST_CASE][PASSED] - Test Cases/ASMV3/CreateNewRegistratie: Test Cases/ASMV3/CreateNewRegistratie
+
+2018-11-14 15:07:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:07:33 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:07:33 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:07:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:07:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:07:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:07:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:07:36 - [TEST_STEP][PASSED] - setText: Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:07:36 - [MESSAGE][PASSED] - Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:07:36 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:07:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:07:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:07:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:07:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:07:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:07:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:07:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:07:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:07:45 - [TEST_STEP][PASSED] - setText: Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:07:46 - [MESSAGE][PASSED] - Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:07:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:07:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:07:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:07:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:07:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:07:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:07:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:07:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:07:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:07:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:07:55 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:07:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:07:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:07:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:07:58 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:07:58 - [MESSAGE][PASSED] - All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:07:58 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:08:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:08:01 - [TEST_STEP][PASSED] - setText: Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:08:02 - [MESSAGE][PASSED] - Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:08:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:08:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:08:05 - [TEST_STEP][PASSED] - setText: Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:08:05 - [MESSAGE][PASSED] - Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:08:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:08:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:08:08 - [TEST_STEP][PASSED] - setText: Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:08:08 - [MESSAGE][PASSED] - Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:08:08 - [TEST_STEP][PASSED] - setText: Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:08:08 - [MESSAGE][PASSED] - Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:08:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:08:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:08:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:08:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:08:11 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-14 15:08:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-14 15:08:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:08:21 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:08:21 - [TEST_CASE][PASSED] - Test Cases/ASMV3/CreateNewRegistratie: Test Cases/ASMV3/CreateNewRegistratie
+
+2018-11-14 15:08:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:08:22 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:08:22 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:08:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:08:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:08:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:08:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:08:25 - [TEST_STEP][PASSED] - setText: Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:08:25 - [MESSAGE][PASSED] - Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:08:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:08:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:08:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:08:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:08:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:08:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:08:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:08:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:08:34 - [TEST_STEP][PASSED] - setText: Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:08:35 - [MESSAGE][PASSED] - Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:08:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:08:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:08:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:08:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:08:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:08:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:08:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:08:41 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:08:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:08:44 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:08:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:08:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:08:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:08:47 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:08:47 - [MESSAGE][PASSED] - All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:08:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:08:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:08:50 - [TEST_STEP][PASSED] - setText: Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:08:51 - [MESSAGE][PASSED] - Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:08:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:08:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:08:54 - [TEST_STEP][PASSED] - setText: Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:08:54 - [MESSAGE][PASSED] - Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:08:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:08:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:08:57 - [TEST_STEP][PASSED] - setText: Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:08:57 - [MESSAGE][PASSED] - Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:08:57 - [TEST_STEP][PASSED] - setText: Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:08:57 - [MESSAGE][PASSED] - Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:08:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:09:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:09:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:09:01 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-14 15:09:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-14 15:09:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:09:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:09:11 - [TEST_CASE][PASSED] - Test Cases/ASMV3/CreateNewRegistratie: Test Cases/ASMV3/CreateNewRegistratie
+
+2018-11-14 15:09:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:09:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:09:11 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:09:11 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:09:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:09:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:09:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:09:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:09:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:09:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:09:14 - [TEST_STEP][PASSED] - setText: Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:09:14 - [MESSAGE][PASSED] - Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:09:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:09:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:09:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:09:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:09:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:09:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:09:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:09:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:09:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:09:24 - [TEST_STEP][PASSED] - setText: Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:09:24 - [MESSAGE][PASSED] - Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:09:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:09:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:09:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:09:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:09:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:09:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:09:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:09:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:09:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:09:33 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:09:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:09:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:09:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:09:36 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:09:37 - [MESSAGE][PASSED] - All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:09:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:09:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:09:40 - [TEST_STEP][PASSED] - setText: Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:09:40 - [MESSAGE][PASSED] - Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:09:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:09:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:09:43 - [TEST_STEP][PASSED] - setText: Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:09:43 - [MESSAGE][PASSED] - Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:09:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:09:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:09:46 - [TEST_STEP][PASSED] - setText: Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:09:46 - [MESSAGE][PASSED] - Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:09:46 - [TEST_STEP][PASSED] - setText: Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:09:47 - [MESSAGE][PASSED] - Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:09:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:09:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:09:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:09:50 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-14 15:10:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-14 15:10:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:10:00 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:10:00 - [TEST_CASE][PASSED] - Test Cases/ASMV3/CreateNewRegistratie: Test Cases/ASMV3/CreateNewRegistratie
+
+2018-11-14 15:10:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:10:00 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:10:00 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:10:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:10:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:10:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:10:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:10:03 - [TEST_STEP][PASSED] - setText: Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:10:03 - [MESSAGE][PASSED] - Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:10:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:10:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:10:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:10:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:10:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:10:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:10:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:10:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:10:13 - [TEST_STEP][PASSED] - setText: Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:10:13 - [MESSAGE][PASSED] - Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:10:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:10:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:10:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:10:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:10:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:10:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:10:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:10:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:10:19 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:10:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:10:22 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:10:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:10:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:10:25 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:10:26 - [MESSAGE][PASSED] - All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:10:26 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:10:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:10:29 - [TEST_STEP][PASSED] - setText: Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:10:29 - [MESSAGE][PASSED] - Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:10:29 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:10:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:10:32 - [TEST_STEP][PASSED] - setText: Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:10:32 - [MESSAGE][PASSED] - Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:10:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:10:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:10:35 - [TEST_STEP][PASSED] - setText: Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:10:35 - [MESSAGE][PASSED] - Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:10:35 - [TEST_STEP][PASSED] - setText: Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:10:36 - [MESSAGE][PASSED] - Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:10:36 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:10:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:10:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:10:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:10:39 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-14 15:10:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-14 15:10:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:10:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:10:49 - [TEST_CASE][PASSED] - Test Cases/ASMV3/CreateNewRegistratie: Test Cases/ASMV3/CreateNewRegistratie
+
+2018-11-14 15:10:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:10:49 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:10:49 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:10:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:10:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:10:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:10:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:10:52 - [TEST_STEP][PASSED] - setText: Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:10:52 - [MESSAGE][PASSED] - Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:10:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:10:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:10:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:10:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:10:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:10:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:10:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:11:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:11:02 - [TEST_STEP][PASSED] - setText: Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:11:02 - [MESSAGE][PASSED] - Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:11:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:11:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:11:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:11:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:11:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:11:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:11:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:11:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:11:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:11:11 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:11:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:11:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:11:14 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:11:15 - [MESSAGE][PASSED] - All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:11:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:11:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:11:18 - [TEST_STEP][PASSED] - setText: Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:11:18 - [MESSAGE][PASSED] - Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:11:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:11:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:11:21 - [TEST_STEP][PASSED] - setText: Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:11:21 - [MESSAGE][PASSED] - Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:11:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:11:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:11:24 - [TEST_STEP][PASSED] - setText: Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:11:24 - [MESSAGE][PASSED] - Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:11:24 - [TEST_STEP][PASSED] - setText: Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:11:25 - [MESSAGE][PASSED] - Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:11:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:11:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:11:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:11:28 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-14 15:11:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-14 15:11:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:11:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:11:38 - [TEST_CASE][PASSED] - Test Cases/ASMV3/CreateNewRegistratie: Test Cases/ASMV3/CreateNewRegistratie
+
+2018-11-14 15:11:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:11:38 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:11:38 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:11:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:11:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:11:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:11:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:11:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:11:41 - [TEST_STEP][PASSED] - setText: Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:11:41 - [MESSAGE][PASSED] - Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:11:41 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:11:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:11:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:11:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:11:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:11:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:11:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:11:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:11:51 - [TEST_STEP][PASSED] - setText: Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:11:51 - [MESSAGE][PASSED] - Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:11:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:11:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:11:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:11:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:11:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:11:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:11:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:11:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:12:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:12:00 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:12:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:12:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:12:03 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:12:04 - [MESSAGE][PASSED] - All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:12:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:12:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:12:07 - [TEST_STEP][PASSED] - setText: Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:12:07 - [MESSAGE][PASSED] - Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:12:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:12:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:12:10 - [TEST_STEP][PASSED] - setText: Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:12:10 - [MESSAGE][PASSED] - Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:12:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:12:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:12:13 - [TEST_STEP][PASSED] - setText: Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:12:13 - [MESSAGE][PASSED] - Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:12:13 - [TEST_STEP][PASSED] - setText: Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:12:14 - [MESSAGE][PASSED] - Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:12:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:12:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:12:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:12:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:12:17 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-14 15:12:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-14 15:12:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:12:27 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:12:27 - [TEST_CASE][PASSED] - Test Cases/ASMV3/CreateNewRegistratie: Test Cases/ASMV3/CreateNewRegistratie
+
+2018-11-14 15:12:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:12:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:12:27 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:12:27 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:12:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:12:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:12:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:12:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:12:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:12:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:12:30 - [TEST_STEP][PASSED] - setText: Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:12:31 - [MESSAGE][PASSED] - Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:12:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:12:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:12:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:12:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:12:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:12:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:12:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:12:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:12:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:12:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:12:40 - [TEST_STEP][PASSED] - setText: Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:12:40 - [MESSAGE][PASSED] - Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:12:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:12:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:12:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:12:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:12:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:12:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:12:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:12:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:12:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:12:49 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:12:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:12:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:12:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:12:53 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:12:53 - [MESSAGE][PASSED] - All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:12:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:12:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:12:56 - [TEST_STEP][PASSED] - setText: Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:12:56 - [MESSAGE][PASSED] - Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:12:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:12:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:12:59 - [TEST_STEP][PASSED] - setText: Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:12:59 - [MESSAGE][PASSED] - Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:12:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:13:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:13:02 - [TEST_STEP][PASSED] - setText: Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:13:03 - [MESSAGE][PASSED] - Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:13:03 - [TEST_STEP][PASSED] - setText: Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:13:03 - [MESSAGE][PASSED] - Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:13:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:13:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:13:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:13:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:13:06 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-14 15:13:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-14 15:13:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:13:16 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:13:16 - [TEST_CASE][PASSED] - Test Cases/ASMV3/CreateNewRegistratie: Test Cases/ASMV3/CreateNewRegistratie
+
+2018-11-14 15:13:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:13:16 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:13:16 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:13:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:13:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:13:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:13:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:13:19 - [TEST_STEP][PASSED] - setText: Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:13:20 - [MESSAGE][PASSED] - Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:13:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:13:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:13:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:13:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:13:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:13:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:13:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:13:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:13:26 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:13:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:13:29 - [TEST_STEP][PASSED] - setText: Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:13:29 - [MESSAGE][PASSED] - Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:13:29 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:13:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:13:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:13:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:13:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:13:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:13:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:13:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:13:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:13:38 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:13:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:13:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:13:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:13:41 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:13:42 - [MESSAGE][PASSED] - All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:13:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:13:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:13:45 - [TEST_STEP][PASSED] - setText: Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:13:45 - [MESSAGE][PASSED] - Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:13:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:13:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:13:48 - [TEST_STEP][PASSED] - setText: Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:13:48 - [MESSAGE][PASSED] - Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:13:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:13:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:13:51 - [TEST_STEP][PASSED] - setText: Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:13:52 - [MESSAGE][PASSED] - Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:13:52 - [TEST_STEP][PASSED] - setText: Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:13:52 - [MESSAGE][PASSED] - Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:13:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:13:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:13:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:13:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:13:55 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-14 15:14:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-14 15:14:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:14:05 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully
+
+2018-11-14 15:14:05 - [TEST_CASE][PASSED] - Test Cases/ASMV3/CreateNewRegistratie: Test Cases/ASMV3/CreateNewRegistratie
+
+2018-11-14 15:14:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 15:14:05 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:14:05 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 15:14:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 15:14:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 15:14:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:14:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:14:08 - [TEST_STEP][PASSED] - setText: Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:14:09 - [MESSAGE][PASSED] - Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 15:14:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:14:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:14:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:14:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 15:14:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:14:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:14:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 15:14:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:14:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:14:18 - [TEST_STEP][PASSED] - setText: Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:14:18 - [MESSAGE][PASSED] - Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 15:14:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:14:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:14:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 15:14:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:14:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:14:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 15:14:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:14:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:14:28 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 15:14:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:14:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:14:31 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:14:31 - [MESSAGE][PASSED] - All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 15:14:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:14:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:14:34 - [TEST_STEP][PASSED] - setText: Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:14:34 - [MESSAGE][PASSED] - Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 15:14:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:14:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:14:37 - [TEST_STEP][PASSED] - setText: Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:14:38 - [MESSAGE][PASSED] - Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 15:14:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:14:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:14:41 - [TEST_STEP][PASSED] - setText: Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:14:41 - [MESSAGE][PASSED] - Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 15:14:41 - [TEST_STEP][PASSED] - setText: Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:14:41 - [MESSAGE][PASSED] - Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 15:14:41 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 15:14:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 15:14:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 15:14:44 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-14 15:14:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-14 15:14:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/ASMV3/CreateNewRegistratie' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-14 15:05:43 - [TEST_SUITE][PASSED] - ASMV3 Test Suite: Test Cases/ASMV3/Test Loop]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

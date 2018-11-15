@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WerkorderOppakken-GereedMelden</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dae4120a-7440-4d65-af21-8d62a99ec160</testCaseGuid>
+   <variable>
+      <defaultValue>'6000 meter verlengsnoer E-Bike goed voor 4 km fietsen'</defaultValue>
+      <description></description>
+      <id>595f5af7-e17a-4ce0-bce1-58eccf01c2ab</id>
+      <masked>false</masked>
+      <name>ProjectMateriaal</name>
+   </variable>
+   <variable>
+      <defaultValue>'4:25'</defaultValue>
+      <description></description>
+      <id>8d5951c4-2352-4433-b32c-77beacf91b1d</id>
+      <masked>false</masked>
+      <name>SetNormalHours</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>c0991af8-5f61-4bf1-a8df-b0ad53a44c00</id>
+      <masked>false</masked>
+      <name>TravelTimeInOut</name>
+   </variable>
+   <variable>
+      <defaultValue>'1:45'</defaultValue>
+      <description></description>
+      <id>6831a53b-ea97-44f7-933e-0bcbc79b5625</id>
+      <masked>false</masked>
+      <name>SetTravelHours</name>
+   </variable>
+</TestCaseEntity>

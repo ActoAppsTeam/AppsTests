@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ASMV3 Test Suite" time="90" tests="3" failures="1" errors="0">
+   <testsuite name="ASMV3 Test Suite" tests="3" failures="1" errors="0" time="90" timestamp="2018-11-14 14:15:41" hostname="ekroes - ltekroes.acto.nl" id="Test Suites/ASMV3 Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite\\20181114_141540"/>
+         <property name="logFiles" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite\\20181114_141540\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite\\20181114_141540\\1542201347166.png, C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite\\20181114_141540\\1542201430586.png"/>
+         <property name="hostName" value="ekroes - ltekroes.acto.nl"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.146.8.12"/>
+         <property name="sessionId" value="86eea09172cccbc45685e125ca0df2c5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Algemeen/LoginLocalhost" classname="Test Cases/Algemeen/LoginLocalhost" status="PASSED">
+         <system-out><![CDATA[2018-11-14 14:15:41 - [TEST_CASE][PASSED] - Test Cases/Algemeen/LoginLocalhost: Test Cases/Algemeen/LoginLocalhost
+
+2018-11-14 14:15:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-14 14:15:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-14 14:15:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost/dev/Account/Account/Login.aspx' successfully
+
+2018-11-14 14:15:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost/dev/Account/Account/Login.aspx' successfully
+
+2018-11-14 14:15:45 - [TEST_STEP][PASSED] - setText: Text 'ekroes' is set on object 'Object Repository/LoginPagina/input-Username'
+
+2018-11-14 14:15:45 - [MESSAGE][PASSED] - Text 'ekroes' is set on object 'Object Repository/LoginPagina/input-Username'
+
+2018-11-14 14:15:45 - [TEST_STEP][PASSED] - setText: Text 'Varkenskut_hoera123' is set on object 'Object Repository/LoginPagina/input-Password'
+
+2018-11-14 14:15:46 - [MESSAGE][PASSED] - Text 'Varkenskut_hoera123' is set on object 'Object Repository/LoginPagina/input-Password'
+
+2018-11-14 14:15:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPagina/input_LoginButton' is clicked on
+
+2018-11-14 14:15:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPagina/input_LoginButton' is clicked on
+
+2018-11-14 14:15:46 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home/HomeAppTileContainer' is present
+
+2018-11-14 14:15:46 - [MESSAGE][PASSED] - Object 'Object Repository/Home/HomeAppTileContainer' is present
+
+2018-11-14 14:15:46 - [TEST_STEP][PASSED] - Statement - assert true: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ASMV3/HomeIndex" classname="Test Cases/ASMV3/HomeIndex" status="PASSED">
+         <system-out><![CDATA[2018-11-14 14:15:46 - [TEST_CASE][PASSED] - Test Cases/ASMV3/HomeIndex: Test Cases/ASMV3/HomeIndex
+
+2018-11-14 14:15:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Home/AsmAppTile' is clicked on
+
+2018-11-14 14:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Home/AsmAppTile' is clicked on
+
+2018-11-14 14:15:47 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-14 14:15:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite\\20181114_141540\\1542201347166.png]]
+
+2018-11-14 14:15:47 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Home/HomeIndex' is present
+
+2018-11-14 14:15:47 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Home/HomeIndex' is present
+
+2018-11-14 14:15:47 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-11-14 14:15:47 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-14 14:15:52 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ASMV3/CreateNewRegistratie" classname="Test Cases/ASMV3/CreateNewRegistratie" status="PASSED">
+         <system-out><![CDATA[2018-11-14 14:15:52 - [TEST_CASE][PASSED] - Test Cases/ASMV3/CreateNewRegistratie: Test Cases/ASMV3/CreateNewRegistratie
+
+2018-11-14 14:15:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 14:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/OpenGlobalMenuNav' is clicked on
+
+2018-11-14 14:15:52 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 14:15:53 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Registratie/GlobalMenuNavButtonCollapsed' is present
+
+2018-11-14 14:15:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 14:15:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/ClickNewRegistration' is clicked on
+
+2018-11-14 14:15:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 14:15:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearch' is clicked on
+
+2018-11-14 14:15:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:15:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:15:56 - [TEST_STEP][PASSED] - setText: Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 14:15:56 - [MESSAGE][PASSED] - Text 'Hanze Academie' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_DossierSearchDialog'
+
+2018-11-14 14:15:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:15:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:15:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 14:15:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search' is clicked on
+
+2018-11-14 14:15:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:16:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:16:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 14:16:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_DossierSearchItem' is clicked on
+
+2018-11-14 14:16:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:16:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:16:05 - [TEST_STEP][PASSED] - setText: Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 14:16:05 - [MESSAGE][PASSED] - Text '60 Verwarming' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'
+
+2018-11-14 14:16:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:16:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:16:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 14:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search' is clicked on
+
+2018-11-14 14:16:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:16:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:16:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 14:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/select_InstallatieSearchItem' is clicked on
+
+2018-11-14 14:16:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:16:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:16:15 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 14:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort' is focused
+
+2018-11-14 14:16:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:16:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:16:18 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 14:16:18 - [MESSAGE][PASSED] - All options with index in [14] are selected on object 'Object Repository/ASMV3/Registratie/Input Objects/input_BezoekSoort'
+
+2018-11-14 14:16:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:16:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:16:21 - [TEST_STEP][PASSED] - setText: Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 14:16:21 - [MESSAGE][PASSED] - Text 'Katalon service monteur' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Melder'
+
+2018-11-14 14:16:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:16:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:16:24 - [TEST_STEP][PASSED] - setText: Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 14:16:25 - [MESSAGE][PASSED] - Text 'Katalon test Service' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Bedrijf'
+
+2018-11-14 14:16:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:16:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:16:28 - [TEST_STEP][PASSED] - setText: Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 14:16:28 - [MESSAGE][PASSED] - Text 'Katalon-testservice-2018' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_Referentie'
+
+2018-11-14 14:16:28 - [TEST_STEP][PASSED] - setText: Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 14:16:28 - [MESSAGE][PASSED] - Text 'Periodieke controle. Brander hapert af en toe.' is set on object 'Object Repository/ASMV3/Registratie/Input Objects/input_MeldingsTekst'
+
+2018-11-14 14:16:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:16:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:16:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 14:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Registratie/Input Objects/button_Versturen' is clicked on
+
+2018-11-14 14:16:31 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-14 14:16:41 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ASMV3/WerkorderOppakken" classname="Test Cases/ASMV3/WerkorderOppakken" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ASMV3/Order/Material/button_ProjectMateriaalOpslaan' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTEKROES', ip: '10.146.8.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ekroes\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 86eea09172cccbc45685e125ca0df2c5)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542191612259.run(Script1542191612259.groovy:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542201340172.run(TempTestSuite1542201340172.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-14 14:16:41 - [TEST_CASE][FAILED] - Test Cases/ASMV3/WerkorderOppakken: Test Cases/ASMV3/WerkorderOppakken FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ASMV3/Order/Material/button_ProjectMateriaalOpslaan' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTEKROES', ip: '10.146.8.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ekroes\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 86eea09172cccbc45685e125ca0df2c5)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542191612259.run(Script1542191612259.groovy:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542201340172.run(TempTestSuite1542201340172.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-14 14:16:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/OpenWerkorder' is clicked on
+
+2018-11-14 14:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/OpenWerkorder' is clicked on
+
+2018-11-14 14:16:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:16:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:16:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/StartWerkorder' is clicked on
+
+2018-11-14 14:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/StartWerkorder' is clicked on
+
+2018-11-14 14:16:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:16:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:16:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/WizardSteps/wizardStep_Material' is clicked on
+
+2018-11-14 14:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/WizardSteps/wizardStep_Material' is clicked on
+
+2018-11-14 14:16:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:16:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:16:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/button_Busvoorraad' is clicked on
+
+2018-11-14 14:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/button_Busvoorraad' is clicked on
+
+2018-11-14 14:16:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:16:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:16:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/button_DialogBusvoorraadSluiten' is clicked on
+
+2018-11-14 14:16:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/button_DialogBusvoorraadSluiten' is clicked on
+
+2018-11-14 14:16:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:16:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:16:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/button_Besteld' is clicked on
+
+2018-11-14 14:16:57 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/button_Besteld' is clicked on
+
+2018-11-14 14:16:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:17:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:17:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/button_DialogBesteldSluiten' is clicked on
+
+2018-11-14 14:17:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/button_DialogBesteldSluiten' is clicked on
+
+2018-11-14 14:17:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:17:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:17:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/button_ProjectMateriaal' is clicked on
+
+2018-11-14 14:17:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/button_ProjectMateriaal' is clicked on
+
+2018-11-14 14:17:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:17:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:17:07 - [TEST_STEP][PASSED] - setText: Text '6000 meter verlengsnoer E-Bike goed voor 4 km fietsen' is set on object 'Object Repository/ASMV3/Order/Material/input_ProjectMateriaalRegel'
+
+2018-11-14 14:17:07 - [MESSAGE][PASSED] - Text '6000 meter verlengsnoer E-Bike goed voor 4 km fietsen' is set on object 'Object Repository/ASMV3/Order/Material/input_ProjectMateriaalRegel'
+
+2018-11-14 14:17:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 14:17:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-14 14:17:10 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/ASMV3/Order/Material/button_ProjectMateriaalOpslaan' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTEKROES', ip: '10.146.8.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ekroes\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 86eea09172cccbc45685e125ca0df2c5)
+
+2018-11-14 14:17:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/ASMV3/Order/Material/button_ProjectMateriaalOpslaan' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTEKROES', ip: '10.146.8.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ekroes\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 86eea09172cccbc45685e125ca0df2c5)
+[[ATTACHMENT|C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite\\20181114_141540\\1542201430586.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-14 14:16:41 - [TEST_CASE][FAILED] - Test Cases/ASMV3/WerkorderOppakken: Test Cases/ASMV3/WerkorderOppakken FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ASMV3/Order/Material/button_ProjectMateriaalOpslaan' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTEKROES', ip: '10.146.8.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ekroes\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 86eea09172cccbc45685e125ca0df2c5)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542191612259.run(Script1542191612259.groovy:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542201340172.run(TempTestSuite1542201340172.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-14 14:15:41 - [TEST_SUITE][FAILED] - ASMV3 Test Suite: Test Cases/ASMV3/WerkorderOppakken FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ASMV3/Order/Material/button_ProjectMateriaalOpslaan' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTEKROES', ip: '10.146.8.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ekroes\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 86eea09172cccbc45685e125ca0df2c5)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542191612259.run(Script1542191612259.groovy:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542201340172.run(TempTestSuite1542201340172.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-14 14:15:41 - [TEST_SUITE][FAILED] - ASMV3 Test Suite: Test Cases/ASMV3/WerkorderOppakken FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/ASMV3/Order/Material/button_ProjectMateriaalOpslaan' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LTEKROES', ip: '10.146.8.12', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\ekroes\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 86eea09172cccbc45685e125ca0df2c5)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1542191612259.run(Script1542191612259.groovy:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542201340172.run(TempTestSuite1542201340172.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -21,3 +21,5 @@ WebUI.waitForElementPresent(findTestObject('ASMV3/Home/HomeIndex'), 10)
 
 assert true
 
+WebUI.delay(5)
+

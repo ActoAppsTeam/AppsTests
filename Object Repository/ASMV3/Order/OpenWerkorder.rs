@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>[data-test-id=&quot;asm-workorder-report-workorder-tile-1&quot;]</value>
+         <value>[class=&quot;workorder-tile&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>

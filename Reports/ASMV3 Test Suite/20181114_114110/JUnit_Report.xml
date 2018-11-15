@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ASMV3 Test Suite" time="14" tests="3" failures="0" errors="0">
+   <testsuite name="ASMV3 Test Suite" tests="3" failures="0" errors="0" time="14" timestamp="2018-11-14 11:41:11" hostname="ekroes - ltekroes.acto.nl" id="Test Suites/ASMV3 Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite\\20181114_114110"/>
+         <property name="logFiles" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite\\20181114_114110\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite\\20181114_114110\\1542192077398.png"/>
+         <property name="hostName" value="ekroes - ltekroes.acto.nl"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.146.8.12"/>
+         <property name="sessionId" value="f2da1c2a3ce88b65c89db285ba7b15cc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Algemeen/LoginLocalhost" classname="Test Cases/Algemeen/LoginLocalhost" status="PASSED">
+         <system-out><![CDATA[2018-11-14 11:41:12 - [TEST_CASE][PASSED] - Test Cases/Algemeen/LoginLocalhost: Test Cases/Algemeen/LoginLocalhost
+
+2018-11-14 11:41:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-14 11:41:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-14 11:41:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost/dev/Account/Account/Login.aspx' successfully
+
+2018-11-14 11:41:15 - [MESSAGE][PASSED] - Navigate to 'http://localhost/dev/Account/Account/Login.aspx' successfully
+
+2018-11-14 11:41:15 - [TEST_STEP][PASSED] - setText: Text 'ekroes' is set on object 'Object Repository/LoginPagina/input-Username'
+
+2018-11-14 11:41:16 - [MESSAGE][PASSED] - Text 'ekroes' is set on object 'Object Repository/LoginPagina/input-Username'
+
+2018-11-14 11:41:16 - [TEST_STEP][PASSED] - setText: Text 'Varkenskut_hoera123' is set on object 'Object Repository/LoginPagina/input-Password'
+
+2018-11-14 11:41:16 - [MESSAGE][PASSED] - Text 'Varkenskut_hoera123' is set on object 'Object Repository/LoginPagina/input-Password'
+
+2018-11-14 11:41:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPagina/input_LoginButton' is clicked on
+
+2018-11-14 11:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPagina/input_LoginButton' is clicked on
+
+2018-11-14 11:41:16 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home/HomeAppTileContainer' is present
+
+2018-11-14 11:41:17 - [MESSAGE][PASSED] - Object 'Object Repository/Home/HomeAppTileContainer' is present
+
+2018-11-14 11:41:17 - [TEST_STEP][PASSED] - Statement - assert true: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ASMV3/HomeIndex" classname="Test Cases/ASMV3/HomeIndex" status="PASSED">
+         <system-out><![CDATA[2018-11-14 11:41:17 - [TEST_CASE][PASSED] - Test Cases/ASMV3/HomeIndex: Test Cases/ASMV3/HomeIndex
+
+2018-11-14 11:41:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Home/AsmAppTile' is clicked on
+
+2018-11-14 11:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Home/AsmAppTile' is clicked on
+
+2018-11-14 11:41:17 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-14 11:41:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite\\20181114_114110\\1542192077398.png]]
+
+2018-11-14 11:41:17 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Home/HomeIndex' is present
+
+2018-11-14 11:41:17 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Home/HomeIndex' is present
+
+2018-11-14 11:41:17 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-11-14 11:41:17 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-14 11:41:22 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ASMV3/WerkorderOppakken" classname="Test Cases/ASMV3/WerkorderOppakken" status="PASSED">
+         <system-out><![CDATA[2018-11-14 11:41:22 - [TEST_CASE][PASSED] - Test Cases/ASMV3/WerkorderOppakken: Test Cases/ASMV3/WerkorderOppakken
+
+2018-11-14 11:41:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/OpenWerkorder' is clicked on
+
+2018-11-14 11:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/OpenWerkorder' is clicked on
+
+2018-11-14 11:41:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-14 11:41:26 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-14 11:41:11 - [TEST_SUITE][PASSED] - ASMV3 Test Suite: Test Cases/ASMV3/WerkorderOppakken]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

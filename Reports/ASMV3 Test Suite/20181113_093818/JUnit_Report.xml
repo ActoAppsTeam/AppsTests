@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ASMV3 Test Suite" time="30" tests="3" failures="0" errors="0">
+   <testsuite name="ASMV3 Test Suite" tests="3" failures="0" errors="0" time="30" timestamp="2018-11-13 09:38:19" hostname="ekroes - ltekroes.acto.nl" id="Test Suites/ASMV3 Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite\\20181113_093818"/>
+         <property name="logFiles" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite\\20181113_093818\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite\\20181113_093818\\1542098305052.png"/>
+         <property name="hostName" value="ekroes - ltekroes.acto.nl"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.146.8.12"/>
+         <property name="sessionId" value="5e0aeaa0ac041069ec93a08021e6ba63"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Algemeen/LoginLocalhost" classname="Test Cases/Algemeen/LoginLocalhost" status="PASSED">
+         <system-out><![CDATA[2018-11-13 09:38:19 - [TEST_CASE][PASSED] - Test Cases/Algemeen/LoginLocalhost: Test Cases/Algemeen/LoginLocalhost
+
+2018-11-13 09:38:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-13 09:38:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-13 09:38:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost/dev/Account/Account/Login.aspx' successfully
+
+2018-11-13 09:38:23 - [MESSAGE][PASSED] - Navigate to 'http://localhost/dev/Account/Account/Login.aspx' successfully
+
+2018-11-13 09:38:23 - [TEST_STEP][PASSED] - setText: Text 'ekroes' is set on object 'Object Repository/LoginPagina/input-Username'
+
+2018-11-13 09:38:23 - [MESSAGE][PASSED] - Text 'ekroes' is set on object 'Object Repository/LoginPagina/input-Username'
+
+2018-11-13 09:38:23 - [TEST_STEP][PASSED] - setText: Text 'Varkenskut_hoera123' is set on object 'Object Repository/LoginPagina/input-Password'
+
+2018-11-13 09:38:24 - [MESSAGE][PASSED] - Text 'Varkenskut_hoera123' is set on object 'Object Repository/LoginPagina/input-Password'
+
+2018-11-13 09:38:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPagina/input_LoginButton' is clicked on
+
+2018-11-13 09:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPagina/input_LoginButton' is clicked on
+
+2018-11-13 09:38:24 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home/HomeAppTileContainer' is present
+
+2018-11-13 09:38:24 - [MESSAGE][PASSED] - Object 'Object Repository/Home/HomeAppTileContainer' is present
+
+2018-11-13 09:38:24 - [TEST_STEP][PASSED] - Statement - assert true: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ASMV3/HomeIndex" classname="Test Cases/ASMV3/HomeIndex" status="PASSED">
+         <system-out><![CDATA[2018-11-13 09:38:24 - [TEST_CASE][PASSED] - Test Cases/ASMV3/HomeIndex: Test Cases/ASMV3/HomeIndex
+
+2018-11-13 09:38:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Home/AsmAppTile' is clicked on
+
+2018-11-13 09:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Home/AsmAppTile' is clicked on
+
+2018-11-13 09:38:25 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-13 09:38:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite\\20181113_093818\\1542098305052.png]]
+
+2018-11-13 09:38:25 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Home/HomeIndex' is present
+
+2018-11-13 09:38:25 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Home/HomeIndex' is present
+
+2018-11-13 09:38:25 - [TEST_STEP][PASSED] - Statement - assert true: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ASMV3/OrderVerwerken" classname="Test Cases/ASMV3/OrderVerwerken" status="PASSED">
+         <system-out><![CDATA[2018-11-13 09:38:25 - [TEST_CASE][PASSED] - Test Cases/ASMV3/OrderVerwerken: Test Cases/ASMV3/OrderVerwerken
+
+2018-11-13 09:38:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/GotoWerkorders' is clicked on
+
+2018-11-13 09:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/GotoWerkorders' is clicked on
+
+2018-11-13 09:38:26 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Order/OrderStatusFrame' is present
+
+2018-11-13 09:38:27 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Order/OrderStatusFrame' is present
+
+2018-11-13 09:38:27 - [TEST_STEP][PASSED] - uncheck: Object 'Object Repository/ASMV3/Order/Input Objects/checkbox_Gestart' is un-checked
+
+2018-11-13 09:38:27 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Order/Input Objects/checkbox_Gestart' is un-checked
+
+2018-11-13 09:38:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-13 09:38:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-13 09:38:30 - [TEST_STEP][PASSED] - uncheck: Object 'Object Repository/ASMV3/Order/Input Objects/checkbox_Open' is un-checked
+
+2018-11-13 09:38:30 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Order/Input Objects/checkbox_Open' is un-checked
+
+2018-11-13 09:38:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-13 09:38:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-13 09:38:33 - [TEST_STEP][PASSED] - uncheck: Object 'Object Repository/ASMV3/Order/Input Objects/checkbox_Gesloten' is un-checked
+
+2018-11-13 09:38:33 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Order/Input Objects/checkbox_Gesloten' is un-checked
+
+2018-11-13 09:38:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-13 09:38:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-13 09:38:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/OpenWerkorder' is clicked on
+
+2018-11-13 09:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/OpenWerkorder' is clicked on
+
+2018-11-13 09:38:36 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-13 09:38:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-13 09:38:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Details/button_StartWerkorder' is clicked on
+
+2018-11-13 09:38:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Details/button_StartWerkorder' is clicked on
+
+2018-11-13 09:38:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-13 09:38:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-13 09:38:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/WizardSteps/wizardStep_Material' is clicked on
+
+2018-11-13 09:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/WizardSteps/wizardStep_Material' is clicked on
+
+2018-11-13 09:38:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-13 09:38:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-13 09:38:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/button_ProjectMateriaal' is clicked on
+
+2018-11-13 09:38:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/button_ProjectMateriaal' is clicked on
+
+2018-11-13 09:38:46 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Order/Material/WaitForDialogProjectMateriaal' is present
+
+2018-11-13 09:38:46 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Order/Material/WaitForDialogProjectMateriaal' is present
+
+2018-11-13 09:38:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-13 09:38:49 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-13 09:38:19 - [TEST_SUITE][PASSED] - ASMV3 Test Suite: Test Cases/ASMV3/OrderVerwerken]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

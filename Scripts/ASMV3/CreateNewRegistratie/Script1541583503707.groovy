@@ -22,55 +22,55 @@ WebUI.click(findTestObject('ASMV3/Registratie/ClickNewRegistration'))
 
 WebUI.click(findTestObject('ASMV3/Registratie/Input Objects/button_DossierSearch'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('ASMV3/Registratie/Input Objects/input_DossierSearchDialog'), DossierNaam)
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('ASMV3/Registratie/Input Objects/button_DossierSearchDialog_Search'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('ASMV3/Registratie/Input Objects/select_DossierSearchItem'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('ASMV3/Registratie/Input Objects/input_InstallatieSearchDialog'), InstallatieNaam)
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('ASMV3/Registratie/Input Objects/button_InstallatieSearchDialog_Search'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('ASMV3/Registratie/Input Objects/select_InstallatieSearchItem'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.focus(findTestObject('ASMV3/Registratie/Input Objects/input_BezoekSoort'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.selectOptionByIndex(findTestObject('ASMV3/Registratie/Input Objects/input_BezoekSoort'), BezoekSoort, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('ASMV3/Registratie/Input Objects/input_Melder'), Melder)
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('ASMV3/Registratie/Input Objects/input_Bedrijf'), Bedrijf)
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('ASMV3/Registratie/Input Objects/input_Referentie'), Referentie)
 
 WebUI.setText(findTestObject('ASMV3/Registratie/Input Objects/input_MeldingsTekst'), MeldingsTekst)
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('ASMV3/Registratie/Input Objects/button_Versturen'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 

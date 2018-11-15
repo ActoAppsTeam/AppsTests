@@ -117,6 +117,18 @@ WebUI.selectOptionByIndex(findTestObject('ASMV3/Order/Resume/Input Objects/selec
 
 WebUI.delay(3)
 
+WebUI.click(findTestObject('ASMV3/Order/Resume/Input Objects/button_NietAfgewerktMeldenAnnuleren'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('ASMV3/Order/Resume/Input Objects/button_NietAfgewerktMelden'))
+
+WebUI.delay(3)
+
+WebUI.selectOptionByIndex(findTestObject('ASMV3/Order/Resume/Input Objects/select_RedenNietAfgemeld'), 4)
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('ASMV3/Order/Resume/Input Objects/button_NietAfgewerktMeldenOpslaan'))
 
 WebUI.delay(10)

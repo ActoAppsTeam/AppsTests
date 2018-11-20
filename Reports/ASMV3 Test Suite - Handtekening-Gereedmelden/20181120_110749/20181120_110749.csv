@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ASMV3 Test Suite - Handtekening-Gereedmelden,Chrome 70.0.3538.110,,2018-11-20 11:07:50,2018-11-20 11:08:03,"12,444s",FAILED
+,,,,,,
+Test Cases/Algemeen/LoginLocalhost,Chrome 70.0.3538.110,,2018-11-20 11:07:50,2018-11-20 11:07:55,"4,888s",PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-11-20 11:07:51,2018-11-20 11:07:54,"3,116s",PASSED
+navigateToUrl,Chrome 70.0.3538.110,,2018-11-20 11:07:54,2018-11-20 11:07:54,"0,297s",PASSED
+setText,Chrome 70.0.3538.110,,2018-11-20 11:07:54,2018-11-20 11:07:54,"0,187s",PASSED
+setText,Chrome 70.0.3538.110,,2018-11-20 11:07:54,2018-11-20 11:07:54,"0,149s",PASSED
+click,Chrome 70.0.3538.110,,2018-11-20 11:07:54,2018-11-20 11:07:55,"0,232s",PASSED
+waitForElementPresent,Chrome 70.0.3538.110,,2018-11-20 11:07:55,2018-11-20 11:07:55,"0,572s",PASSED
+Statement - assert true,Chrome 70.0.3538.110,,2018-11-20 11:07:55,2018-11-20 11:07:55,"0,001s",PASSED
+,,,,,,
+Test Cases/ASMV3/HomeIndex,Chrome 70.0.3538.110,,2018-11-20 11:07:55,2018-11-20 11:07:56,"0,656s",FAILED
+click,Chrome 70.0.3538.110,,2018-11-20 11:07:55,2018-11-20 11:07:56,"0,479s",FAILED
+,,,,,,
+Test Cases/ASMV3/WerkorderOppakken-Handtekening-Gereedmelden,Chrome 70.0.3538.110,,2018-11-20 11:07:56,2018-11-20 11:08:02,"5,965s",FAILED
+click,Chrome 70.0.3538.110,,2018-11-20 11:07:56,2018-11-20 11:08:02,"5,510s",FAILED

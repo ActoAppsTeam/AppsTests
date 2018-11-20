@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ASMV3 Test Suite - Handtekening-Gereedmelden" time="104" tests="2" failures="0" errors="1">
+   <testsuite name="ASMV3 Test Suite - Handtekening-Gereedmelden" tests="2" failures="0" errors="1" time="104" timestamp="2018-11-20 11:08:07" hostname="ekroes - ltekroes.acto.nl" id="Test Suites/ASMV3 Test Suite - Handtekening-Gereedmelden">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite - Handtekening-Gereedmelden\\20181120_110806"/>
+         <property name="logFiles" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite - Handtekening-Gereedmelden\\20181120_110806\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite - Handtekening-Gereedmelden\\20181120_110806\\1542708492976.png"/>
+         <property name="hostName" value="ekroes - ltekroes.acto.nl"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.146.8.12"/>
+         <property name="sessionId" value="62e041c8965c1ef4de085614e5e2264e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Algemeen/LoginLocalhost" classname="Test Cases/Algemeen/LoginLocalhost" status="PASSED">
+         <system-out><![CDATA[2018-11-20 11:08:07 - [TEST_CASE][PASSED] - Test Cases/Algemeen/LoginLocalhost: Test Cases/Algemeen/LoginLocalhost
+
+2018-11-20 11:08:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-20 11:08:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-20 11:08:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost/dev/Account/Account/Login.aspx' successfully
+
+2018-11-20 11:08:11 - [MESSAGE][PASSED] - Navigate to 'http://localhost/dev/Account/Account/Login.aspx' successfully
+
+2018-11-20 11:08:11 - [TEST_STEP][PASSED] - setText: Text 'ekroes' is set on object 'Object Repository/LoginPagina/input-Username'
+
+2018-11-20 11:08:11 - [MESSAGE][PASSED] - Text 'ekroes' is set on object 'Object Repository/LoginPagina/input-Username'
+
+2018-11-20 11:08:11 - [TEST_STEP][PASSED] - setText: Text 'Varkenskut_hoera123' is set on object 'Object Repository/LoginPagina/input-Password'
+
+2018-11-20 11:08:11 - [MESSAGE][PASSED] - Text 'Varkenskut_hoera123' is set on object 'Object Repository/LoginPagina/input-Password'
+
+2018-11-20 11:08:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPagina/input_LoginButton' is clicked on
+
+2018-11-20 11:08:12 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPagina/input_LoginButton' is clicked on
+
+2018-11-20 11:08:12 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home/HomeAppTileContainer' is present
+
+2018-11-20 11:08:12 - [MESSAGE][PASSED] - Object 'Object Repository/Home/HomeAppTileContainer' is present
+
+2018-11-20 11:08:12 - [TEST_STEP][PASSED] - Statement - assert true: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ASMV3/HomeIndex" classname="Test Cases/ASMV3/HomeIndex" status="PASSED">
+         <system-out><![CDATA[2018-11-20 11:08:12 - [TEST_CASE][PASSED] - Test Cases/ASMV3/HomeIndex: Test Cases/ASMV3/HomeIndex
+
+2018-11-20 11:08:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Home/AsmAppTile' is clicked on
+
+2018-11-20 11:08:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Home/AsmAppTile' is clicked on
+
+2018-11-20 11:08:12 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-20 11:08:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite - Handtekening-Gereedmelden\\20181120_110806\\1542708492976.png]]
+
+2018-11-20 11:08:13 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Home/HomeIndex' is present
+
+2018-11-20 11:08:13 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Home/HomeIndex' is present
+
+2018-11-20 11:08:13 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-11-20 11:08:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-20 11:08:18 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ASMV3/WerkorderOppakken-Handtekening-Gereedmelden" classname="Test Cases/ASMV3/WerkorderOppakken-Handtekening-Gereedmelden" status="ERROR">
+         <error type="ERROR" message="Test Cases/ASMV3/WerkorderOppakken-Handtekening-Gereedmelden FAILED because (of) (Stack trace: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [ASMV3/Order/Resume/Input Objects/input_Handtekening, 5]
+Possible solutions: waitForElementPresent(com.kms.katalon.core.testobject.TestObject, int), waitForElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at groovy.lang.MetaClassImpl.invokeStaticMissingMethod(MetaClassImpl.java:1503)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1489)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1542702611956.run(Script1542702611956.groovy:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542708486357.run(TempTestSuite1542708486357.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-20 11:08:18 - [TEST_CASE][ERROR] - Test Cases/ASMV3/WerkorderOppakken-Handtekening-Gereedmelden: Test Cases/ASMV3/WerkorderOppakken-Handtekening-Gereedmelden FAILED because (of) (Stack trace: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [ASMV3/Order/Resume/Input Objects/input_Handtekening, 5]
+Possible solutions: waitForElementPresent(com.kms.katalon.core.testobject.TestObject, int), waitForElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at groovy.lang.MetaClassImpl.invokeStaticMissingMethod(MetaClassImpl.java:1503)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1489)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1542702611956.run(Script1542702611956.groovy:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542708486357.run(TempTestSuite1542708486357.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-20 11:08:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/OpenWerkorder' is clicked on
+
+2018-11-20 11:08:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/OpenWerkorder' is clicked on
+
+2018-11-20 11:08:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:08:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:08:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/StartWerkorder' is clicked on
+
+2018-11-20 11:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/StartWerkorder' is clicked on
+
+2018-11-20 11:08:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:08:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:08:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/WizardSteps/wizardStep_Material' is clicked on
+
+2018-11-20 11:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/WizardSteps/wizardStep_Material' is clicked on
+
+2018-11-20 11:08:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:08:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:08:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_Busvoorraad' is clicked on
+
+2018-11-20 11:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_Busvoorraad' is clicked on
+
+2018-11-20 11:08:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:08:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:08:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_DialogBusvoorraadSluiten' is clicked on
+
+2018-11-20 11:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_DialogBusvoorraadSluiten' is clicked on
+
+2018-11-20 11:08:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:08:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:08:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_Besteld' is clicked on
+
+2018-11-20 11:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_Besteld' is clicked on
+
+2018-11-20 11:08:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:08:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:08:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_DialogBesteldSluiten' is clicked on
+
+2018-11-20 11:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_DialogBesteldSluiten' is clicked on
+
+2018-11-20 11:08:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:08:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:08:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_ProjectMateriaal' is clicked on
+
+2018-11-20 11:08:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_ProjectMateriaal' is clicked on
+
+2018-11-20 11:08:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:08:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:08:43 - [TEST_STEP][PASSED] - setText: Text '6000 meter verlengsnoer E-Bike goed voor 4 km fietsen' is set on object 'Object Repository/ASMV3/Order/Material/Input Objects/input_ProjectMateriaalRegel'
+
+2018-11-20 11:08:44 - [MESSAGE][PASSED] - Text '6000 meter verlengsnoer E-Bike goed voor 4 km fietsen' is set on object 'Object Repository/ASMV3/Order/Material/Input Objects/input_ProjectMateriaalRegel'
+
+2018-11-20 11:08:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:08:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:08:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_ProjectMateriaalAnnuleren' is clicked on
+
+2018-11-20 11:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_ProjectMateriaalAnnuleren' is clicked on
+
+2018-11-20 11:08:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:08:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:08:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_ProjectMateriaal' is clicked on
+
+2018-11-20 11:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_ProjectMateriaal' is clicked on
+
+2018-11-20 11:08:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:08:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:08:53 - [TEST_STEP][PASSED] - setText: Text '6000 meter verlengsnoer E-Bike goed voor 4 km fietsen' is set on object 'Object Repository/ASMV3/Order/Material/Input Objects/input_ProjectMateriaalRegel'
+
+2018-11-20 11:08:53 - [MESSAGE][PASSED] - Text '6000 meter verlengsnoer E-Bike goed voor 4 km fietsen' is set on object 'Object Repository/ASMV3/Order/Material/Input Objects/input_ProjectMateriaalRegel'
+
+2018-11-20 11:08:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:08:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:08:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/addProjectMateriaalPlus' is clicked on
+
+2018-11-20 11:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/addProjectMateriaalPlus' is clicked on
+
+2018-11-20 11:08:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:08:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:08:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/addProjectMateriaalPlus' is clicked on
+
+2018-11-20 11:08:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/addProjectMateriaalPlus' is clicked on
+
+2018-11-20 11:08:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:09:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:09:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/addProjectMateriaalMin' is clicked on
+
+2018-11-20 11:09:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/addProjectMateriaalMin' is clicked on
+
+2018-11-20 11:09:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:09:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:09:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_ProjectMateriaalOpslaan' is clicked on
+
+2018-11-20 11:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_ProjectMateriaalOpslaan' is clicked on
+
+2018-11-20 11:09:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:09:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:09:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/WizardSteps/wizardStep_Time' is clicked on
+
+2018-11-20 11:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/WizardSteps/wizardStep_Time' is clicked on
+
+2018-11-20 11:09:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:09:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:09:12 - [TEST_STEP][PASSED] - setText: Text '4:25' is set on object 'Object Repository/ASMV3/Order/Time/Input Objects/input_CommercialHours'
+
+2018-11-20 11:09:12 - [MESSAGE][PASSED] - Text '4:25' is set on object 'Object Repository/ASMV3/Order/Time/Input Objects/input_CommercialHours'
+
+2018-11-20 11:09:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:09:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:09:15 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/ASMV3/Order/Time/Input Objects/button_AddCommercialHours' is clickable
+
+2018-11-20 11:09:15 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Order/Time/Input Objects/button_AddCommercialHours' is clickable
+
+2018-11-20 11:09:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Time/Input Objects/button_AddCommercialHours' is clicked on
+
+2018-11-20 11:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Time/Input Objects/button_AddCommercialHours' is clicked on
+
+2018-11-20 11:09:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:09:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:09:18 - [TEST_STEP][PASSED] - setText: Text '1:45' is set on object 'Object Repository/ASMV3/Order/Time/Input Objects/input_TravelHours'
+
+2018-11-20 11:09:18 - [MESSAGE][PASSED] - Text '1:45' is set on object 'Object Repository/ASMV3/Order/Time/Input Objects/input_TravelHours'
+
+2018-11-20 11:09:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:09:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:09:21 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/ASMV3/Order/Time/Input Objects/input_TravelInOut'
+
+2018-11-20 11:09:21 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/ASMV3/Order/Time/Input Objects/input_TravelInOut'
+
+2018-11-20 11:09:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:09:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:09:24 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/ASMV3/Order/Time/Input Objects/button_AddTravelHours' is clickable
+
+2018-11-20 11:09:25 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Order/Time/Input Objects/button_AddTravelHours' is clickable
+
+2018-11-20 11:09:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Time/Input Objects/button_AddTravelHours' is clicked on
+
+2018-11-20 11:09:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Time/Input Objects/button_AddTravelHours' is clicked on
+
+2018-11-20 11:09:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:09:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:09:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/WizardSteps/wizardStep_Resume' is clicked on
+
+2018-11-20 11:09:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/WizardSteps/wizardStep_Resume' is clicked on
+
+2018-11-20 11:09:28 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-20 11:09:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-20 11:09:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Resume/Input Objects/button_Handtekening' is clicked on
+
+2018-11-20 11:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Resume/Input Objects/button_Handtekening' is clicked on
+
+2018-11-20 11:09:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:09:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:09:41 - [TEST_STEP][PASSED] - setText: Text 'Harry van Ipsen' is set on object 'Object Repository/ASMV3/Order/Resume/Input Objects/input_Naam'
+
+2018-11-20 11:09:41 - [MESSAGE][PASSED] - Text 'Harry van Ipsen' is set on object 'Object Repository/ASMV3/Order/Resume/Input Objects/input_Naam'
+
+2018-11-20 11:09:41 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:09:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:09:44 - [TEST_STEP][PASSED] - setText: Text 'hvanipsen@modus.nl' is set on object 'Object Repository/ASMV3/Order/Resume/Input Objects/input_Email'
+
+2018-11-20 11:09:44 - [MESSAGE][PASSED] - Text 'hvanipsen@modus.nl' is set on object 'Object Repository/ASMV3/Order/Resume/Input Objects/input_Email'
+
+2018-11-20 11:09:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:09:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:09:47 - [TEST_STEP][PASSED] - setText: Text 'Automatisch opmerkingen tekst Katalon test' is set on object 'Object Repository/ASMV3/Order/Resume/Input Objects/input_Opmerkingen'
+
+2018-11-20 11:09:48 - [MESSAGE][PASSED] - Text 'Automatisch opmerkingen tekst Katalon test' is set on object 'Object Repository/ASMV3/Order/Resume/Input Objects/input_Opmerkingen'
+
+2018-11-20 11:09:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 11:09:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 11:09:51 - [TEST_STEP][PASSED] - waitForElementPresent: null]]></system-out>
+         <system-err><![CDATA[2018-11-20 11:08:18 - [TEST_CASE][ERROR] - Test Cases/ASMV3/WerkorderOppakken-Handtekening-Gereedmelden: Test Cases/ASMV3/WerkorderOppakken-Handtekening-Gereedmelden FAILED because (of) (Stack trace: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [ASMV3/Order/Resume/Input Objects/input_Handtekening, 5]
+Possible solutions: waitForElementPresent(com.kms.katalon.core.testobject.TestObject, int), waitForElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at groovy.lang.MetaClassImpl.invokeStaticMissingMethod(MetaClassImpl.java:1503)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1489)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1542702611956.run(Script1542702611956.groovy:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542708486357.run(TempTestSuite1542708486357.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-20 11:08:07 - [TEST_SUITE][ERROR] - ASMV3 Test Suite - Handtekening-Gereedmelden: Test Cases/ASMV3/WerkorderOppakken-Handtekening-Gereedmelden FAILED because (of) (Stack trace: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [ASMV3/Order/Resume/Input Objects/input_Handtekening, 5]
+Possible solutions: waitForElementPresent(com.kms.katalon.core.testobject.TestObject, int), waitForElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at groovy.lang.MetaClassImpl.invokeStaticMissingMethod(MetaClassImpl.java:1503)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1489)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1542702611956.run(Script1542702611956.groovy:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542708486357.run(TempTestSuite1542708486357.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-20 11:08:07 - [TEST_SUITE][ERROR] - ASMV3 Test Suite - Handtekening-Gereedmelden: Test Cases/ASMV3/WerkorderOppakken-Handtekening-Gereedmelden FAILED because (of) (Stack trace: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [ASMV3/Order/Resume/Input Objects/input_Handtekening, 5]
+Possible solutions: waitForElementPresent(com.kms.katalon.core.testobject.TestObject, int), waitForElementPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject, int), waitForElementNotPresent(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling)
+	at groovy.lang.MetaClassImpl.invokeStaticMissingMethod(MetaClassImpl.java:1503)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1489)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1542702611956.run(Script1542702611956.groovy:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542708486357.run(TempTestSuite1542708486357.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

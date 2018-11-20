@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OpenWerkorder</name>
+   <name>OpenWerkorderGeparkeerd</name>
    <tag></tag>
-   <elementGuidId>36c12dd1-6a15-48af-9bd8-f3a19f3ac7d4</elementGuidId>
+   <elementGuidId>1f1700d2-fd78-42fe-90eb-d33716bb93f3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>[class=&quot;workorder-tile&quot;]</value>
+         <value>[class=&quot;workorder-tile workorder-tile-parked&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>[class=&quot;workorder-tile&quot;]</value>
+         <value>[class=&quot;workorder-tile workorder-tile-parked&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>

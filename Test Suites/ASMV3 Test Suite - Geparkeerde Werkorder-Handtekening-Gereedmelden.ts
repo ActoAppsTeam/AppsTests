@@ -45,7 +45,7 @@
       <guid>42c6ef95-73e4-47f9-a6c3-4fc41c95356f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ASMV3/GeparkeerdeWerkorderOppakken-Handtekening-Gereedmelden</testCaseId>
+      <testCaseId>Test Cases/ASMV3/Geparkeerde-Werkorder-Handtekening-Gereedmelden</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

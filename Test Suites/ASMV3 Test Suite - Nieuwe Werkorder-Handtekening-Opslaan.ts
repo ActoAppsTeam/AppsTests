@@ -117,7 +117,7 @@
       <guid>5aa582f9-dea4-4a87-aee0-e587029bfbd2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ASMV3/NieuweWerkorderOppakken-Handtekening-Opslaan</testCaseId>
+      <testCaseId>Test Cases/ASMV3/Nieuwe-Werkorder-Handtekening-Opslaan</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

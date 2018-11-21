@@ -74,3 +74,4 @@ WebUI.click(findTestObject('ASMV3/Registratie/Input Objects/button_Versturen'))
 
 WebUI.delay(5)
 
+assert true

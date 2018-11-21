@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ASMV3 Test Suite - Geparkeerde Werkorder-Handtekening-Opslaan" time="140" tests="3" failures="0" errors="0">
+   <testsuite name="ASMV3 Test Suite - Geparkeerde Werkorder-Handtekening-Opslaan" tests="3" failures="0" errors="0" time="140" timestamp="2018-11-20 15:10:01" hostname="ekroes - ltekroes.acto.nl" id="Test Suites/ASMV3 Test Suite - Geparkeerde Werkorder-Handtekening-Opslaan">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite - Geparkeerde Werkorder-Handtekening-Opslaan\\20181120_150959"/>
+         <property name="logFiles" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite - Geparkeerde Werkorder-Handtekening-Opslaan\\20181120_150959\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite - Geparkeerde Werkorder-Handtekening-Opslaan\\20181120_150959\\1542723006463.png"/>
+         <property name="hostName" value="ekroes - ltekroes.acto.nl"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="10.146.8.12"/>
+         <property name="sessionId" value="79992dacb345878ed41653d167635fa6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Algemeen/LoginLocalhost" classname="Test Cases/Algemeen/LoginLocalhost" status="PASSED">
+         <system-out><![CDATA[2018-11-20 15:10:01 - [TEST_CASE][PASSED] - Test Cases/Algemeen/LoginLocalhost: Test Cases/Algemeen/LoginLocalhost
+
+2018-11-20 15:10:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-20 15:10:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-20 15:10:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://localhost/dev/Account/Account/Login.aspx' successfully
+
+2018-11-20 15:10:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost/dev/Account/Account/Login.aspx' successfully
+
+2018-11-20 15:10:05 - [TEST_STEP][PASSED] - setText: Text 'ekroes' is set on object 'Object Repository/LoginPagina/input-Username'
+
+2018-11-20 15:10:05 - [MESSAGE][PASSED] - Text 'ekroes' is set on object 'Object Repository/LoginPagina/input-Username'
+
+2018-11-20 15:10:05 - [TEST_STEP][PASSED] - setText: Text 'Varkenskut_hoera123' is set on object 'Object Repository/LoginPagina/input-Password'
+
+2018-11-20 15:10:05 - [MESSAGE][PASSED] - Text 'Varkenskut_hoera123' is set on object 'Object Repository/LoginPagina/input-Password'
+
+2018-11-20 15:10:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPagina/input_LoginButton' is clicked on
+
+2018-11-20 15:10:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPagina/input_LoginButton' is clicked on
+
+2018-11-20 15:10:05 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Home/HomeAppTileContainer' is present
+
+2018-11-20 15:10:06 - [MESSAGE][PASSED] - Object 'Object Repository/Home/HomeAppTileContainer' is present
+
+2018-11-20 15:10:06 - [TEST_STEP][PASSED] - Statement - assert true: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ASMV3/HomeIndex" classname="Test Cases/ASMV3/HomeIndex" status="PASSED">
+         <system-out><![CDATA[2018-11-20 15:10:06 - [TEST_CASE][PASSED] - Test Cases/ASMV3/HomeIndex: Test Cases/ASMV3/HomeIndex
+
+2018-11-20 15:10:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Home/AsmAppTile' is clicked on
+
+2018-11-20 15:10:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Home/AsmAppTile' is clicked on
+
+2018-11-20 15:10:06 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-11-20 15:10:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ekroes\\git\\AppsTests\\Reports\\ASMV3 Test Suite - Geparkeerde Werkorder-Handtekening-Opslaan\\20181120_150959\\1542723006463.png]]
+
+2018-11-20 15:10:06 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Home/HomeIndex' is present
+
+2018-11-20 15:10:07 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Home/HomeIndex' is present
+
+2018-11-20 15:10:07 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2018-11-20 15:10:07 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-20 15:10:12 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ASMV3/GeparkeerdeWerkorderOppakken-Handtekening-Opslaan" classname="Test Cases/ASMV3/GeparkeerdeWerkorderOppakken-Handtekening-Opslaan" status="PASSED">
+         <system-out><![CDATA[2018-11-20 15:10:12 - [TEST_CASE][PASSED] - Test Cases/ASMV3/GeparkeerdeWerkorderOppakken-Handtekening-Opslaan: Test Cases/ASMV3/GeparkeerdeWerkorderOppakken-Handtekening-Opslaan
+
+2018-11-20 15:10:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/GotoWerkorders' is clicked on
+
+2018-11-20 15:10:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/GotoWerkorders' is clicked on
+
+2018-11-20 15:10:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:10:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:10:15 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/ASMV3/Order/OrderStatusFrame' is present
+
+2018-11-20 15:10:15 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Order/OrderStatusFrame' is present
+
+2018-11-20 15:10:15 - [TEST_STEP][PASSED] - uncheck: Object 'Object Repository/ASMV3/Order/Input Objects/checkbox_Geparkeerd' is un-checked
+
+2018-11-20 15:10:15 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Order/Input Objects/checkbox_Geparkeerd' is un-checked
+
+2018-11-20 15:10:15 - [TEST_STEP][PASSED] - uncheck: Object 'Object Repository/ASMV3/Order/Input Objects/checkbox_Gesloten' is un-checked
+
+2018-11-20 15:10:15 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Order/Input Objects/checkbox_Gesloten' is un-checked
+
+2018-11-20 15:10:15 - [TEST_STEP][PASSED] - uncheck: Object 'Object Repository/ASMV3/Order/Input Objects/checkbox_Gestart' is un-checked
+
+2018-11-20 15:10:15 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Order/Input Objects/checkbox_Gestart' is un-checked
+
+2018-11-20 15:10:15 - [TEST_STEP][PASSED] - uncheck: Object 'Object Repository/ASMV3/Order/Input Objects/checkbox_Open' is un-checked
+
+2018-11-20 15:10:15 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Order/Input Objects/checkbox_Open' is un-checked
+
+2018-11-20 15:10:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:10:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:10:18 - [TEST_STEP][PASSED] - check: Object 'Object Repository/ASMV3/Order/Input Objects/checkbox_Geparkeerd' is checked
+
+2018-11-20 15:10:19 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Order/Input Objects/checkbox_Geparkeerd' is checked
+
+2018-11-20 15:10:19 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:10:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:10:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/OpenWerkorderGeparkeerd' is clicked on
+
+2018-11-20 15:10:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/OpenWerkorderGeparkeerd' is clicked on
+
+2018-11-20 15:10:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:10:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:10:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/StartWerkorder' is clicked on
+
+2018-11-20 15:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/StartWerkorder' is clicked on
+
+2018-11-20 15:10:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:10:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:10:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/WizardSteps/wizardStep_Material' is clicked on
+
+2018-11-20 15:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/WizardSteps/wizardStep_Material' is clicked on
+
+2018-11-20 15:10:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:10:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:10:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_Busvoorraad' is clicked on
+
+2018-11-20 15:10:31 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_Busvoorraad' is clicked on
+
+2018-11-20 15:10:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:10:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:10:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_DialogBusvoorraadSluiten' is clicked on
+
+2018-11-20 15:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_DialogBusvoorraadSluiten' is clicked on
+
+2018-11-20 15:10:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:10:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:10:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_Besteld' is clicked on
+
+2018-11-20 15:10:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_Besteld' is clicked on
+
+2018-11-20 15:10:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:10:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:10:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_DialogBesteldSluiten' is clicked on
+
+2018-11-20 15:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_DialogBesteldSluiten' is clicked on
+
+2018-11-20 15:10:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:10:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:10:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_ProjectMateriaal' is clicked on
+
+2018-11-20 15:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_ProjectMateriaal' is clicked on
+
+2018-11-20 15:10:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:10:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:10:47 - [TEST_STEP][PASSED] - setText: Text '6000 meter verlengsnoer E-Bike goed voor 4 km fietsen' is set on object 'Object Repository/ASMV3/Order/Material/Input Objects/input_ProjectMateriaalRegel'
+
+2018-11-20 15:10:47 - [MESSAGE][PASSED] - Text '6000 meter verlengsnoer E-Bike goed voor 4 km fietsen' is set on object 'Object Repository/ASMV3/Order/Material/Input Objects/input_ProjectMateriaalRegel'
+
+2018-11-20 15:10:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:10:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:10:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_ProjectMateriaalAnnuleren' is clicked on
+
+2018-11-20 15:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_ProjectMateriaalAnnuleren' is clicked on
+
+2018-11-20 15:10:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:10:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:10:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_ProjectMateriaal' is clicked on
+
+2018-11-20 15:10:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_ProjectMateriaal' is clicked on
+
+2018-11-20 15:10:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:10:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:10:56 - [TEST_STEP][PASSED] - setText: Text '6000 meter verlengsnoer E-Bike goed voor 4 km fietsen' is set on object 'Object Repository/ASMV3/Order/Material/Input Objects/input_ProjectMateriaalRegel'
+
+2018-11-20 15:10:56 - [MESSAGE][PASSED] - Text '6000 meter verlengsnoer E-Bike goed voor 4 km fietsen' is set on object 'Object Repository/ASMV3/Order/Material/Input Objects/input_ProjectMateriaalRegel'
+
+2018-11-20 15:10:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:10:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:10:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/addProjectMateriaalPlus' is clicked on
+
+2018-11-20 15:11:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/addProjectMateriaalPlus' is clicked on
+
+2018-11-20 15:11:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:11:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:11:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/addProjectMateriaalPlus' is clicked on
+
+2018-11-20 15:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/addProjectMateriaalPlus' is clicked on
+
+2018-11-20 15:11:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:11:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:11:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/addProjectMateriaalMin' is clicked on
+
+2018-11-20 15:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/addProjectMateriaalMin' is clicked on
+
+2018-11-20 15:11:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:11:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:11:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_ProjectMateriaalOpslaan' is clicked on
+
+2018-11-20 15:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Material/Input Objects/button_ProjectMateriaalOpslaan' is clicked on
+
+2018-11-20 15:11:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:11:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:11:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/WizardSteps/wizardStep_Time' is clicked on
+
+2018-11-20 15:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/WizardSteps/wizardStep_Time' is clicked on
+
+2018-11-20 15:11:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:11:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:11:15 - [TEST_STEP][PASSED] - setText: Text '4:25' is set on object 'Object Repository/ASMV3/Order/Time/Input Objects/input_CommercialHours'
+
+2018-11-20 15:11:15 - [MESSAGE][PASSED] - Text '4:25' is set on object 'Object Repository/ASMV3/Order/Time/Input Objects/input_CommercialHours'
+
+2018-11-20 15:11:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:11:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:11:18 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/ASMV3/Order/Time/Input Objects/button_AddCommercialHours' is clickable
+
+2018-11-20 15:11:18 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Order/Time/Input Objects/button_AddCommercialHours' is clickable
+
+2018-11-20 15:11:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Time/Input Objects/button_AddCommercialHours' is clicked on
+
+2018-11-20 15:11:18 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Time/Input Objects/button_AddCommercialHours' is clicked on
+
+2018-11-20 15:11:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:11:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:11:21 - [TEST_STEP][PASSED] - setText: Text '1:45' is set on object 'Object Repository/ASMV3/Order/Time/Input Objects/input_TravelHours'
+
+2018-11-20 15:11:22 - [MESSAGE][PASSED] - Text '1:45' is set on object 'Object Repository/ASMV3/Order/Time/Input Objects/input_TravelHours'
+
+2018-11-20 15:11:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:11:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:11:25 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/ASMV3/Order/Time/Input Objects/input_TravelInOut'
+
+2018-11-20 15:11:25 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/ASMV3/Order/Time/Input Objects/input_TravelInOut'
+
+2018-11-20 15:11:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:11:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:11:28 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/ASMV3/Order/Time/Input Objects/button_AddTravelHours' is clickable
+
+2018-11-20 15:11:28 - [MESSAGE][PASSED] - Object 'Object Repository/ASMV3/Order/Time/Input Objects/button_AddTravelHours' is clickable
+
+2018-11-20 15:11:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Time/Input Objects/button_AddTravelHours' is clicked on
+
+2018-11-20 15:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Time/Input Objects/button_AddTravelHours' is clicked on
+
+2018-11-20 15:11:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:11:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:11:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/WizardSteps/wizardStep_Resume' is clicked on
+
+2018-11-20 15:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/WizardSteps/wizardStep_Resume' is clicked on
+
+2018-11-20 15:11:31 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-20 15:11:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-20 15:11:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Resume/Input Objects/button_Handtekening' is clicked on
+
+2018-11-20 15:11:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Resume/Input Objects/button_Handtekening' is clicked on
+
+2018-11-20 15:11:41 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:11:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:11:44 - [TEST_STEP][PASSED] - setText: Text 'Harry van Ipsen' is set on object 'Object Repository/ASMV3/Order/Resume/Input Objects/input_Naam'
+
+2018-11-20 15:11:44 - [MESSAGE][PASSED] - Text 'Harry van Ipsen' is set on object 'Object Repository/ASMV3/Order/Resume/Input Objects/input_Naam'
+
+2018-11-20 15:11:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:11:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:11:47 - [TEST_STEP][PASSED] - setText: Text 'hvanipsen@modus.nl' is set on object 'Object Repository/ASMV3/Order/Resume/Input Objects/input_Email'
+
+2018-11-20 15:11:48 - [MESSAGE][PASSED] - Text 'hvanipsen@modus.nl' is set on object 'Object Repository/ASMV3/Order/Resume/Input Objects/input_Email'
+
+2018-11-20 15:11:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:11:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:11:51 - [TEST_STEP][PASSED] - setText: Text 'Automatisch opmerkingen tekst Katalon test' is set on object 'Object Repository/ASMV3/Order/Resume/Input Objects/input_Opmerkingen'
+
+2018-11-20 15:11:51 - [MESSAGE][PASSED] - Text 'Automatisch opmerkingen tekst Katalon test' is set on object 'Object Repository/ASMV3/Order/Resume/Input Objects/input_Opmerkingen'
+
+2018-11-20 15:11:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:11:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:11:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Resume/Input Objects/button_WisHandtekening' is clicked on
+
+2018-11-20 15:11:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Resume/Input Objects/button_WisHandtekening' is clicked on
+
+2018-11-20 15:11:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:11:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:11:57 - [TEST_STEP][PASSED] - dragAndDropByOffset: Dragged object with id 'Object Repository/ASMV3/Order/Resume/Input Objects/input_Handtekening' by offset distance x = 80 and y = -20 successfully
+
+2018-11-20 15:11:57 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/ASMV3/Order/Resume/Input Objects/input_Handtekening' by offset distance x = 80 and y = -20 successfully
+
+2018-11-20 15:11:57 - [TEST_STEP][PASSED] - dragAndDropByOffset: Dragged object with id 'Object Repository/ASMV3/Order/Resume/Input Objects/input_Handtekening' by offset distance x = 80 and y = 200 successfully
+
+2018-11-20 15:11:57 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/ASMV3/Order/Resume/Input Objects/input_Handtekening' by offset distance x = 80 and y = 200 successfully
+
+2018-11-20 15:11:57 - [TEST_STEP][PASSED] - dragAndDropByOffset: Dragged object with id 'Object Repository/ASMV3/Order/Resume/Input Objects/input_Handtekening' by offset distance x = 20 and y = -180 successfully
+
+2018-11-20 15:11:57 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/ASMV3/Order/Resume/Input Objects/input_Handtekening' by offset distance x = 20 and y = -180 successfully
+
+2018-11-20 15:11:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:12:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:12:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/Resume/Input Objects/button_HandtekeningOpslaan' is clicked on
+
+2018-11-20 15:12:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/Resume/Input Objects/button_HandtekeningOpslaan' is clicked on
+
+2018-11-20 15:12:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:12:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:12:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/WizardSteps/wizardStep_Details' is clicked on
+
+2018-11-20 15:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/WizardSteps/wizardStep_Details' is clicked on
+
+2018-11-20 15:12:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:12:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:12:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/ParkeerWerkorder' is clicked on
+
+2018-11-20 15:12:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/ParkeerWerkorder' is clicked on
+
+2018-11-20 15:12:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-20 15:12:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-20 15:12:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/ASMV3/Order/AppHome' is clicked on
+
+2018-11-20 15:12:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ASMV3/Order/AppHome' is clicked on
+
+2018-11-20 15:12:10 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-20 15:12:20 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-20 15:10:01 - [TEST_SUITE][PASSED] - ASMV3 Test Suite - Geparkeerde Werkorder-Handtekening-Opslaan: Test Cases/ASMV3/GeparkeerdeWerkorderOppakken-Handtekening-Opslaan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

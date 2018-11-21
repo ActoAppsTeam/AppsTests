@@ -22,6 +22,8 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl(LoginUrl)
 
 WebUI.setText(findTestObject('LoginPagina/input-Username'), UserName)

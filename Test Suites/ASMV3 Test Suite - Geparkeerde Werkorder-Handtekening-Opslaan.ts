@@ -4,6 +4,7 @@
    <name>ASMV3 Test Suite - Geparkeerde Werkorder-Handtekening-Opslaan</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-11-20T15:09:59</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -44,7 +45,7 @@
       <guid>5aa582f9-dea4-4a87-aee0-e587029bfbd2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ASMV3/GeparkeerdeWerkorderOppakken-Handtekening-Opslaan</testCaseId>
+      <testCaseId>Test Cases/ASMV3/Geparkeerde-Werkorder-Handtekening-Opslaan</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

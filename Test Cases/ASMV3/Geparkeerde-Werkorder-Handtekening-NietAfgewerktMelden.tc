@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Geparkeerde-Werkorder-Handtekening-NietAfgewerktMelden</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>70ecf58d-243d-4cc4-85ba-ef0e7d5bd76f</testCaseGuid>
+   <variable>
+      <defaultValue>'6000 meter verlengsnoer E-Bike goed voor 4 km fietsen'</defaultValue>
+      <description></description>
+      <id>dd9102cf-ca39-4622-a05c-7afa8b0ec1e8</id>
+      <masked>false</masked>
+      <name>ProjectMateriaal</name>
+   </variable>
+   <variable>
+      <defaultValue>'4:25'</defaultValue>
+      <description></description>
+      <id>40966406-083b-48df-b174-975aa1b0b926</id>
+      <masked>false</masked>
+      <name>SetNormalHours</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>0c57f82e-121a-46e4-bcd3-cb80fe49f78d</id>
+      <masked>false</masked>
+      <name>TravelTimeInOut</name>
+   </variable>
+   <variable>
+      <defaultValue>'1:45'</defaultValue>
+      <description></description>
+      <id>cb78d4fc-bca0-4649-b20e-4b62ff71222a</id>
+      <masked>false</masked>
+      <name>SetTravelHours</name>
+   </variable>
+   <variable>
+      <defaultValue>'Harry van Ipsen'</defaultValue>
+      <description></description>
+      <id>79fbb495-2130-48ce-9d41-db95560ca081</id>
+      <masked>false</masked>
+      <name>HandtekeningNaam</name>
+   </variable>
+   <variable>
+      <defaultValue>'hvanipsen@modus.nl'</defaultValue>
+      <description></description>
+      <id>b78e32f9-0b0f-45db-9379-04d85b56eac8</id>
+      <masked>false</masked>
+      <name>HandtekeningEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'Automatisch opmerkingen tekst Katalon test'</defaultValue>
+      <description></description>
+      <id>9623350d-7bed-4728-9e8f-b7e0428c6f82</id>
+      <masked>false</masked>
+      <name>HandtekeningOpmerkingen</name>
+   </variable>
+   <variable>
+      <defaultValue>'H van Ipson'</defaultValue>
+      <description></description>
+      <id>90934c16-382f-46a9-96dd-e10b89ef63c4</id>
+      <masked>false</masked>
+      <name>HandtekeningCanvasInput</name>
+   </variable>
+</TestCaseEntity>

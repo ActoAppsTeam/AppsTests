@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ASMV3 Test Suite - Geparkeerde Werkorder-Gereedmelden</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-11-21T11:18:29</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>c6188602-e4af-4920-ad51-dbfcc161f512</testSuiteGuid>
+   <testCaseLink>
+      <guid>19dc374f-5c7a-412f-acc2-ebfd8876c401</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Algemeen/LoginLocalhost</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6c219c4d-3a42-4aa3-b468-08c8c5693fd4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a761390e-35b4-40a4-8b23-ff80bcd9ad39</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>46a52aee-78ec-4f50-8151-84767d512d96</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ff384239-e4e0-442c-9261-45c538c2f2a4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ASMV3/HomeIndex</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>42c6ef95-73e4-47f9-a6c3-4fc41c95356f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ASMV3/Geparkeerde-Werkorder-GereedMelden</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cac61db9-dee6-4186-af1f-ca406705fa4b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cd2bdb03-b963-4767-bc0f-8cbe33ff8cc7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>265ff112-8846-460a-814e-bb413d4d7398</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>42decc80-a6d7-4488-8b97-e546271a70d1</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

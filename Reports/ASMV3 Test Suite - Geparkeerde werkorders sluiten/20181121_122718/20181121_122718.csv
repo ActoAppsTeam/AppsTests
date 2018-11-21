@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ASMV3 Test Suite - Geparkeerde werkorders sluiten,Chrome 70.0.3538.110,,2018-11-21 12:27:19,2018-11-21 12:32:04,"4m - 45,097s",FAILED
+,,,,,,
+Test Cases/Algemeen/LoginLocalhost,Chrome 70.0.3538.110,,2018-11-21 12:27:19,2018-11-21 12:27:26,"6,033s",PASSED
+openBrowser,Chrome 70.0.3538.110,,2018-11-21 12:27:20,2018-11-21 12:27:23,"3,233s",PASSED
+maximizeWindow,Chrome 70.0.3538.110,,2018-11-21 12:27:23,2018-11-21 12:27:24,"1,177s",PASSED
+navigateToUrl,Chrome 70.0.3538.110,,2018-11-21 12:27:24,2018-11-21 12:27:24,"0,229s",PASSED
+setText,Chrome 70.0.3538.110,,2018-11-21 12:27:24,2018-11-21 12:27:25,"0,154s",PASSED
+setText,Chrome 70.0.3538.110,,2018-11-21 12:27:25,2018-11-21 12:27:25,"0,143s",PASSED
+click,Chrome 70.0.3538.110,,2018-11-21 12:27:25,2018-11-21 12:27:25,"0,172s",PASSED
+waitForElementPresent,Chrome 70.0.3538.110,,2018-11-21 12:27:25,2018-11-21 12:27:26,"0,562s",PASSED
+Statement - assert true,Chrome 70.0.3538.110,,2018-11-21 12:27:26,2018-11-21 12:27:26,"0,001s",PASSED
+,,,,,,
+Test Cases/ASMV3/HomeIndex,Chrome 70.0.3538.110,,2018-11-21 12:27:26,2018-11-21 12:27:31,"5,777s",PASSED
+click,Chrome 70.0.3538.110,,2018-11-21 12:27:26,2018-11-21 12:27:26,"0,131s",PASSED
+takeScreenshot,Chrome 70.0.3538.110,,2018-11-21 12:27:26,2018-11-21 12:27:26,"0,368s",PASSED
+waitForElementPresent,Chrome 70.0.3538.110,,2018-11-21 12:27:26,2018-11-21 12:27:26,"0,144s",PASSED
+delay,Chrome 70.0.3538.110,,2018-11-21 12:27:26,2018-11-21 12:27:31,"5,025s",PASSED
+Statement - assert true,Chrome 70.0.3538.110,,2018-11-21 12:27:31,2018-11-21 12:27:31,"0,000s",PASSED
+,,,,,,
+Test Cases/ASMV3/Loop Geparkeerde werkorders gereedmelden,Chrome 70.0.3538.110,,2018-11-21 12:27:31,2018-11-21 12:32:04,"4m - 32,291s",FAILED
+Statement - For (def index : (0..20)),Chrome 70.0.3538.110,,2018-11-21 12:27:31,2018-11-21 12:32:04,"4m - 32,148s",FAILED

@@ -21,9 +21,15 @@ WebUI.waitForElementPresent(findTestObject('ASMV3/Order/OrderStatusFrame'), 5)
 
 WebUI.uncheck(findTestObject('ASMV3/Order/Input Objects/checkbox_Geparkeerd'))
 
+WebUI.delay(3)
+
 WebUI.uncheck(findTestObject('ASMV3/Order/Input Objects/checkbox_Gesloten'))
 
+WebUI.delay(3)
+
 WebUI.uncheck(findTestObject('ASMV3/Order/Input Objects/checkbox_Gestart'))
+
+WebUI.delay(3)
 
 WebUI.uncheck(findTestObject('ASMV3/Order/Input Objects/checkbox_Open'))
 

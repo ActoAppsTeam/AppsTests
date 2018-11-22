@@ -33,6 +33,18 @@ WebUI.check(findTestObject('ASMV3/Order/Input Objects/checkbox_Geparkeerd'))
 
 WebUI.delay(3)
 
+WebUI.selectOptionByIndex(findTestObject('ASMV3/Order/Input Objects/select_Prioriteit'), 1)
+
+WebUI.delay(3)
+
+WebUI.selectOptionByIndex(findTestObject('ASMV3/Order/Input Objects/select_Sorteren'), 1)
+
+WebUI.delay(3)
+
+WebUI.selectOptionByIndex(findTestObject('ASMV3/Order/Input Objects/select_Periode'), 1)
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('ASMV3/Order/OpenWerkorderGeparkeerd'))
 
 WebUI.delay(3)
@@ -166,3 +178,4 @@ WebUI.click(findTestObject('ASMV3/Order/AppHome'))
 WebUI.delay(5)
 
 assert true
+

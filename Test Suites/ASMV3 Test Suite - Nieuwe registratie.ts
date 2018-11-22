@@ -4,7 +4,7 @@
    <name>ASMV3 Test Suite - Nieuwe registratie</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-15T16:45:40</lastRun>
+   <lastRun>2018-11-22T11:54:20</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
